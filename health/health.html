@@ -2,13 +2,188 @@
 <html> 
     <head>
         <title>Wonderful Pistachios - Health</title>    
-        <link rel="stylesheet" href="./css/clientlibs_common.css" type="text/css">
+        <link rel="stylesheet" type="text/css" media="all" href="./css/common.css" >
         <link rel="stylesheet" type="text/css" media="all" href="./css/fonts.css"/>
         <link rel="stylesheet" type="text/css" media="all" href="./css/style.css"/>
         <style>
+            .health-page{
+                background: #080808;
+            }
+
+            .health-intro,
+            .nuts-list,
+            .health-footer{
+                width: 953px;
+            }
+
+            .health-intro{
+                font-size: 50px;
+                line-height: 40px;
+                text-align: center;
+                color: #96d342;
+                margin: 0 auto; 
+                font-family: AvenirLT-Roman;
+            }
+
             .health-intro__title{
                 padding-top: 50px;
             }
+
+            .health-intro h2{   
+                color: #96d342;
+                font-size: 70px;
+                text-transform: uppercase;
+                margin: 10px 0 3px;
+            }
+
+            .health-intro h2 img{   
+                position: relative;
+                top: -7px;
+            }
+
+            .health-intro h2 span{  
+                display: none;
+            }
+
+            .health-intro__body{
+                font-size: 24px;    
+                font-family: AvenirLT-Roman;
+                color: white;
+                line-height: 32px;
+                margin-top: 46px;
+            }
+
+            .nuts-list{
+                color: white;
+                margin: 0 auto;
+                padding-left: 0;
+            }
+
+            .nuts-list-item{
+                margin-bottom: 13px;
+                font-size: 0;
+            }
+
+            .nuts-list-item__image,
+            .nuts-list-item__info{
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .nuts-list-item__info{
+                width: 653px;
+            }
+
+            .nuts-list-item__title{
+                font-size: 36px;
+                color: #85bb2f;
+                text-transform: uppercase;
+                font-family: AvenirLT-Roman;
+                margin: 0 0 20px;
+                letter-spacing: -0.025em;
+            }
+
+            .nuts-list-item__body{
+                font-size: 16px;
+                font-family: AvenirLT-Roman;
+                letter-spacing: -0.010em;
+            }
+
+            .health-footer{ 
+                padding: 80px 0 100px;
+                font-size: 10px;
+                line-height: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                margin: 0 auto;
+            }
+
+            .health-footer__icon{
+                margin: 0 20px 0;
+            }
+
+
+            .health-footer p{
+                color: #727373;
+                margin: 0 0 0 20px;
+                align-self: flex-end;
+            }
+
+            @media only screen and (max-device-width : 768px){
+                .health-intro,
+                .nuts-list,
+                .health-footer{
+                    width: 100%;
+                    padding: 0 10px;
+                box-sizing: border-box;
+                }
+
+                .health-intro{
+                    font-size: 20px;
+                    line-height: 20px;
+                    margin-top: 15px;
+                }
+
+                .health-intro h2{
+                    font-size: 26px;
+                    margin: 3px 0;
+                }
+
+                .health-intro h2 img{   
+                    top: -2px;
+                    height: 19px;
+                }   
+
+                .health-intro__body{
+                    font-size: 14px;
+                    line-height: 16px;
+                    margin-top: 16px;
+                }
+
+                .nuts-list-item{        
+                    text-align: center;
+                }
+
+                .nuts-list-item__info{
+                    width: 100%;
+                }
+
+                .nuts-list-item__title{
+                    font-size: 26px;        
+                    margin-bottom: 10px;
+                }
+
+                .nuts-list-item__body{
+                    font-size: 12px;
+                }
+
+                .health-footer{
+                    padding: 60px 10px 40px;
+                }
+
+                .health-footer__icon{
+                    height: 35px;
+                }
+
+                .health-intro__body,
+                .nuts-list-item__body,
+                .health-footer{
+                    max-width: 500px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                .health-footer__icon{
+                    margin: 0 10px 0;
+                }
+            }
+
+            @media only screen and (max-device-width : 767px){
+                .health-footer{
+                    padding: 40px 10px 0;
+                }
+            }
+
         </style>
     </head>
     <body>       
