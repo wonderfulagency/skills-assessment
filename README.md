@@ -1,2 +1,15 @@
-# skills-assessment
-Skills assessment for AEM developer candidates
+## Skills Assessment
+
+From this point, you will have 2 hours to code and **package** your solution to the following assessment:
+
+
+This repository contains one simple HTML page. 
+Your goal is to migrate this page to AEM and make the content authorable.
+
+Please do the assessment according to industry best practices as you would in real conditions. 
+You will be asked to explain any places where your solution does not match the spec
+
+Bonus points: Don't use classic UI. Incorporate Sightly.
+
+
+![Screen](https://github.com/wonderfulagency/skills-assessment/blob/master/preview.jpg)
