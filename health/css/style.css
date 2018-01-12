@@ -1,0 +1,5787 @@
+body,html
+{
+	-webkit-font-smoothing:antialiased;
+	font-family:sans-serif;
+	margin:0;
+	padding:0;
+}
+body
+{
+	overflow-x: auto !important;
+}
+
+a,img
+{
+	border:0;
+	outline:none;
+	text-decoration:none;
+}
+
+input
+{
+	outline:none;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.bold
+{
+	font-weight:700;
+}
+
+.float_left
+{
+	float:left;
+	width:100%;
+}
+
+.heavy
+{
+	font-family:AvenirLT-Heavy;
+}
+
+.green
+{
+	color:#8dc63f!important;
+}
+
+.page
+{
+//	float:left;
+	min-width:960px;
+	position:relative;
+	width:100%;
+}
+
+#video_top,#nav_top
+{
+	background:#000;
+}
+#nav_tab_01 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_active_01.png);
+       padding-left: 9px;
+}
+
+#nav_tab_02 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_active_02.png);
+       padding-left: 9px;
+}
+
+#nav_tab_03 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_active_03.png);
+       padding-left: 5px;
+}
+
+#nav_tab_04 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_active_04.png);
+       margin-left: -4px;
+}
+#nav_top_02
+{
+	background:#75b211 url(/etc/designs/wow/clientlibs_crackin/images/bg_green_high_res.jpg) 50% 0 no-repeat;
+	background-size:960px auto;
+	//height:675px;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+
+#nav_top_02 #nav_tab_01 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_02_active_01.png);
+       margin-left: 0px;
+       padding-left: 0px;
+}
+
+#nav_top_02 #nav_tab_02 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_02_active_02.png);
+       margin-left: 0px;
+       padding-left: 0px;
+}
+
+#nav_top_02 #nav_tab_03 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_02_active_03.png);
+       margin-left: 0px;
+       padding-left: 0px;
+}
+
+#nav_top_02 #nav_tab_04 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_02_active_04.png);
+       margin-left: 0px;
+       padding-left: 0px;
+}
+
+#nav_top_03
+{
+	background:#75b211 url(/etc/designs/wow/clientlibs_crackin/images/bg_green_high_res.jpg) 50% 0 no-repeat;
+	background-size:960px auto;
+	height:1300px;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+	z-index: 0;
+}
+
+#nav_top_04
+{
+	background:#ebebeb url(/etc/designs/wow/clientlibs_crackin/images/bg_white_high_res.jpg) 50% 0 no-repeat;
+	background-size:960px 100%;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+
+#nav_top_05
+{
+	background:#080808 url(/etc/designs/wow/clientlibs_crackin/images/bg_black_high_res.jpg) 50% 0 no-repeat;
+	background-size:100% 100%;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}
+#nav_top_05 #nav_tab_01 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_alt_01.png);
+       margin-left: -4px;
+       padding-left: 0px;
+}
+
+#nav_top_05 #nav_tab_02 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_alt_02.png);
+       margin-left: -1px;
+       padding-left: 0px;
+
+}
+
+#nav_top_05 #nav_tab_03 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_alt_03.png);
+       margin-left: 0px;
+       padding-left: 3px;
+       width: 165px;
+}
+
+#nav_top_05 #nav_tab_04 img{
+       content:url(/etc/designs/wow/clientlibs_crackin/images/nav_alt_04.png);
+       margin-left: 0px;
+       padding-left: 0px;
+}
+
+.nav_top_video
+{
+	height:775px!important;
+}
+
+.center
+{
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	width:960px;
+}
+
+.logo
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/wp_logo_high_res.png) 50% 50% no-repeat;
+	background-size:118px 62px;
+	display:block;
+	height:62px;
+	left:20px;
+	line-height:99999px;
+	margin:0;
+	overflow:hidden;
+	position:absolute;
+	top:15px;
+	width:118px;
+	z-index:9999999;
+}
+
+.logo_02
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/wp_logo_03_high_res.png) no-repeat;
+	background-size:118px 62px;
+	display:block;
+	height:62px;
+	left:20px;
+	line-height:99999px;
+	margin:0;
+	overflow:hidden;
+	position:absolute;
+	top:15px;
+	width:118px;
+	z-index:1000215;
+}
+
+.logo_03
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/wp_logo_03_high_res.png) 50% 50% no-repeat;
+	background-size:118px 62px;
+	display:block;
+	height:62px;
+	left:20px;
+	line-height:99999px;
+	margin:0;
+	overflow:hidden;
+	position:absolute;
+	top:15px;
+	width:118px;
+	z-index:9999999;
+}
+
+.logo_04
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/wp_logo_04_high_res.png) 50% 50% no-repeat;
+	background-size:117px 35px;
+	display:block;
+	height:35px;
+	left:20px;
+	line-height:99999px;
+	margin:0;
+	overflow:hidden;
+	position:absolute;
+	top:15px;
+	width:117px;
+	z-index:9999999;
+}
+
+#pistachio-products-page #logotxt{
+	z-index: 2;
+}
+
+#pistachio-products-page .content .new.section{
+	display: none;
+}
+
+.logo_05
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/wp_logo_05_high_res.png) 50% 50% no-repeat;
+	background-size:118px 34px;
+	display:block;
+	height:34px;
+	left:20px;
+	line-height:99999px;
+	margin:0;
+	overflow:hidden;
+	position:absolute;
+	top:15px;
+	width:118px;
+	z-index:9999999;
+}
+
+.logo_bag
+{
+	height:206px;
+	left:15px;
+	position:absolute;
+	top:40px;
+	width:133px;
+	z-index:9999999;
+	pointer-events: none;
+}
+
+.header_container {
+    position: absolute;
+    width: 100%;
+}
+
+.header
+{
+    	position: relative;
+    	height: 125px;
+    	width: 1020px;
+	margin: 0 auto;
+}
+
+.nav
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/nav_alt_2_high_res.png) 0 0 no-repeat;
+	background-size:715px 110px;
+	float:left;
+	height:110px;
+	margin-left:150px;
+	position:relative;
+	width:715px;
+	z-index:9999999;
+}
+
+.nav_02
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/nav_02_high_res.png) 0 0 no-repeat;
+	background-size:715px 110px;
+	float:left;
+	height:110px;
+	margin-left:150px;
+	position:relative;
+	width:715px;
+	z-index:9999999;
+}
+
+.nav_03
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/nav_alt_high_res.png) 0 0 no-repeat;
+	background-size:715px 110px;
+	float:left;
+	height:110px;
+	margin-left:150px;
+	position:relative;
+	width:715px;
+	z-index:9999999;
+}
+
+.nav_tab
+{
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#nav_tab_01
+{
+	height:110px;
+	width:142px;
+}
+
+#nav_tab_active_01
+{
+	-moz-transition:visibility .2s linear,opacity .2s linear;
+	-o-transition:visibility .2s linear,opacity .2s linear;
+	-webkit-transition:visibility .2s linear,opacity .2s linear;
+	display:block;
+	height:110px;
+	margin:0;
+	opacity:0;
+	visibility:hidden;
+	width:142px;
+}
+
+a:hover #nav_tab_active_01
+{
+	opacity:1;
+	visibility:visible;
+}
+
+#nav_tab_02
+{
+	height:110px;
+	width:133px;
+}
+
+#nav_tab_active_02
+{
+	-moz-transition:visibility .2s linear,opacity .2s linear;
+	-o-transition:visibility .2s linear,opacity .2s linear;
+	-webkit-transition:visibility .2s linear,opacity .2s linear;
+	display:block;
+	height:110px;
+	margin:0;
+	opacity:0;
+	visibility:hidden;
+	width:133px;
+}
+
+a:hover #nav_tab_active_02
+{
+	opacity:1;
+	visibility:visible;
+}
+
+#nav_tab_03
+{
+	width:177px;
+
+}
+
+#nav_tab_active_03
+{
+	-moz-transition:visibility .2s linear,opacity .2s linear;
+	-o-transition:visibility .2s linear,opacity .2s linear;
+	-webkit-transition:visibility .2s linear,opacity .2s linear;
+	display:block;
+	margin:0;
+	opacity:0;
+	visibility:hidden;
+	width:177px;
+}
+
+a:hover #nav_tab_active_03
+{
+	opacity:1;
+	visibility:visible;
+}
+
+#nav_tab_04
+{
+	height:110px;
+	width:126px;
+}
+
+#nav_tab_active_04
+{
+	-moz-transition:visibility .2s linear,opacity .2s linear;
+	-o-transition:visibility .2s linear,opacity .2s linear;
+	-webkit-transition:visibility .2s linear,opacity .2s linear;
+	display:block;
+	height:110px;
+	margin:0;
+	opacity:0;
+	visibility:hidden;
+	width:126px;
+}
+
+a:hover #nav_tab_active_04
+{
+	opacity:1;
+	visibility:visible;
+}
+
+#nav_tab_05
+{
+	height:110px;
+	width:137px;
+}
+
+#nav_tab_active_05
+{
+	-moz-transition:visibility .2s linear,opacity .2s linear;
+	-o-transition:visibility .2s linear,opacity .2s linear;
+	-webkit-transition:visibility .2s linear,opacity .2s linear;
+	display:block;
+	height:110px;
+	margin:0;
+	opacity:0;
+	visibility:hidden;
+	width:137px;
+}
+
+a:hover #nav_tab_active_05
+{
+	opacity:1;
+	visibility:visible;
+}
+
+
+#nav_top_04  #nav_tab_active_01 {
+	width: 152px;
+}
+
+#nav_top_04  #nav_tab_active_02 {
+    width: 142px;
+}
+
+#nav_top_04  #nav_tab_active_03 {
+    width: 180px
+}
+
+#nav_top_04  #nav_tab_active_04 {
+
+}
+
+#nav_top_04  #nav_tab_active_05 {
+
+}
+
+
+#nav_alt_tab_01
+{
+	height:110px;
+	width:149px;
+}
+
+#nav_tab_alt_active_01
+{
+	-moz-transition:visibility .2s linear,opacity .2s linear;
+	-o-transition:visibility .2s linear,opacity .2s linear;
+	-webkit-transition:visibility .2s linear,opacity .2s linear;
+	display:block;
+	height:110px;
+	margin:0;
+	opacity:0;
+	visibility:hidden;
+	width:149px;
+}
+
+a:hover #nav_tab_alt_active_01
+{
+	opacity:1;
+	visibility:visible;
+}
+
+#nav_tab_alt_02
+{
+	height:110px;
+	width:134px;
+}
+
+#nav_tab_alt_active_02
+{
+	-moz-transition:visibility .2s linear,opacity .2s linear;
+	-o-transition:visibility .2s linear,opacity .2s linear;
+	-webkit-transition:visibility .2s linear,opacity .2s linear;
+	display:block;
+	height:110px;
+	margin:0;
+	opacity:0;
+	visibility:hidden;
+	width:134px;
+}
+
+a:hover #nav_tab_alt_active_02
+{
+	opacity:1;
+	visibility:visible;
+}
+
+#nav_tab_alt_03
+{
+	height:81px;
+	width:162px;
+}
+
+#nav_tab_alt_active_03
+{
+	-moz-transition:visibility .2s linear,opacity .2s linear;
+	-o-transition:visibility .2s linear,opacity .2s linear;
+	-webkit-transition:visibility .2s linear,opacity .2s linear;
+	display:block;
+	height:110px;
+	margin:0;
+	opacity:0;
+	visibility:hidden;
+	width:162px;
+}
+
+a:hover #nav_tab_alt_active_03
+{
+	opacity:1;
+	visibility:visible;
+}
+
+#nav_tab_alt_04
+{
+	height:110px;
+	width:135px;
+}
+
+#nav_tab_alt_active_04
+{
+	-moz-transition:visibility .2s linear,opacity .2s linear;
+	-o-transition:visibility .2s linear,opacity .2s linear;
+	-webkit-transition:visibility .2s linear,opacity .2s linear;
+	display:block;
+	height:110px;
+	margin:0;
+	opacity:0;
+	visibility:hidden;
+	width:135px;
+}
+
+a:hover #nav_tab_alt_active_04
+{
+	opacity:1;
+	visibility:visible;
+}
+
+#nav_tab_alt_05
+{
+	height:110px;
+	width:137px;
+}
+
+#nav_tab_alt_active_05
+{
+	-moz-transition:visibility .2s linear,opacity .2s linear;
+	-o-transition:visibility .2s linear,opacity .2s linear;
+	-webkit-transition:visibility .2s linear,opacity .2s linear;
+	display:block;
+	height:110px;
+	margin:0;
+	opacity:0;
+	visibility:hidden;
+	width:137px;
+}
+
+a:hover #nav_tab_alt_active_05
+{
+	opacity:1;
+	visibility:visible;
+}
+
+#fader
+{
+	left:0;
+	position:absolute;
+	top:80px;
+	z-index:0;
+}
+
+.mobilePressHeader a.ui-link, .mobilePressHeader a.ui-link:visited, .mobilePressHeader a.ui-link:active {
+	color:#000;
+}
+
+.fader_01_outer,.fader_02_outer
+{
+	height:1000px;
+	position:relative;
+	width:100%;
+}
+
+.fader_02_outer,.fader_02_inner
+{
+	display:none;
+}
+
+.fader_02_outer
+{
+	margin-top:25px;
+}
+
+.fader_01_inner
+{
+	display:none;
+	height:1000px;
+	left:0;
+	opacity:1;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	width:100%;
+}
+
+.fade_loader
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/ajax-loader.gif) 50% 50% no-repeat;
+	height:450px;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:1;
+}
+
+.fader_image,.fader_text
+{
+	left:-100px;
+	opacity:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:1;
+}
+
+.fader_button_left
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/left_black_arrow_high_res.png) 100% 50% no-repeat;
+	background-size:100px 50px;
+	display:none;
+	height:450px;
+	left:5px;
+	position:absolute;
+	top:0;
+	width:50px;
+	z-index:9999999;
+}
+
+.fader_button_left:hover
+{
+	background-position:0 50%;
+}
+
+.fader_button_right
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/right_black_arrow_high_res.png) 100% 50% no-repeat;
+	background-size:100px 50px;
+	display:none;
+	height:450px;
+	position:absolute;
+	right:5px;
+	top:0;
+	width:50px;
+	z-index:9999999;
+}
+
+.fader_button_right:hover
+{
+	background-position:0 50%;
+}
+
+#video_slider
+{
+	background:#000;
+	position:relative;
+	z-index:999999;
+}
+
+.slider_02_outer
+{
+	height:80px;
+	margin-left:45px;
+	margin-top:10px;
+	overflow:hidden;
+	position:relative;
+	width:865px;
+}
+
+#slider_02_inner
+{
+	height:80px;
+	left:0;
+	position:absolute;
+	top:0;
+	width:2610px;
+}
+
+.video_slider_thumb
+{
+	float:left;
+	margin-right:5px;
+	width:140px;
+}
+
+.slide
+{
+	float:left;
+}
+
+.slider_button_left
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/slider_button_left_high_res.png) 100% 50% no-repeat;
+	background-size:74px 35px;
+	display:block;
+	height:80px;
+	left:5px;
+	position:absolute;
+	top:0;
+	width:35px;
+}
+
+.slider_button_left:hover
+{
+	background-position:-1px 50%;
+}
+
+.slider_button_right
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/slider_button_right_high_res.png) 100% 50% no-repeat;
+	background-size:74px 35px;
+	display:block;
+	height:80px;
+	position:absolute;
+	right:5px;
+	top:0;
+	width:35px;
+}
+
+.slider_button_right:hover
+{
+	background-position:-1px 50%;
+}
+
+#slider_button_left_02,#slider_button_left_03,#slider_button_right_02,#slider_button_right_03
+{
+	display:none;
+}
+
+#more_vidoes
+{
+	padding-top:20px;
+	width:100px;
+}
+
+.view_all_videos
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/right_green_arrow_high_res.png) 100% 2px no-repeat;
+	background-size:6px 8px;
+	color:#8dc63f;
+	display:block;
+	font-family:AvenirLT-Heavy;
+	font-size:10px;
+	height:10px;
+	padding-right:10px;
+	text-transform:uppercase;
+}
+
+#contest
+{
+	height:200px;
+	position:relative;
+}
+
+#home-page .one-item .buttonArea,
+#home-page .one-item .arrowButton{
+	display: none !important;
+}
+
+@media only screen and (min-device-width : 728px) and (max-device-width : 1366px) {
+	#home-page #contest #contest img
+	{
+		margin-left: 0 !important
+	}
+}
+
+.contest_image
+{
+	float:left;
+	max-width:100%;
+	width:100%;
+}
+
+.contest_link
+{
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+}
+
+.slider_button_02_left
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/left_black_arrow_high_res.png) 100% 50% no-repeat;
+	background-size:100px 50px;
+	display:block;
+	height:100%;
+	left:5px;
+	position:absolute;
+	top:0;
+	width:50px;
+	z-index:9999999;
+}
+
+.slider_button_02_left:hover
+{
+	background-position:0 50%;
+}
+
+.slider_button_02_right
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/right_black_arrow_high_res.png) 100% 50% no-repeat;
+	background-size:100px 50px;
+	display:block;
+	height:100%;
+	position:absolute;
+	right:5px;
+	top:0;
+	width:50px;
+	z-index:999999999;
+}
+
+.slider_button_02_right:hover
+{
+	background-position:0 50%;
+}
+
+#slider_button_02_left_02,#slider_button_02_left_03,#slider_button_02_right_02,#slider_button_02_right_03
+{
+	display:none;
+}
+
+#contest_02,#contest_03
+{
+	display:none;
+}
+
+.youtube
+{
+	display:block;
+	float:left;
+	height:444px;
+	margin-left:85px;
+	width:790px;
+}
+
+.youtube_info
+{
+
+	font-family:AvenirLT-Medium;
+	height:100px;
+	//margin-left:85px;
+	width:800px;
+}
+
+.youtube_info_top,.youtube_info_bottom
+{
+	color:#999;
+	float:left;
+	font-size:12px;
+	width:100%;
+}
+
+.youtube_info_top a,.youtube_info_bottom a,.video_title
+{
+	color:#8dc63f;
+}
+
+a .video_share_gray
+{
+	color:#999;
+	font-family:AvenirLT-Heavy;
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+.video_title
+{
+	font-family:AvenirLT-Heavy;
+	font-size:22px;
+}
+
+.video_title:hover
+{
+	color:#FFF;
+}
+
+.youtube_info_top
+{
+	height:30px;
+	margin-top:15px;
+}
+
+.youtube_info_bottom
+{
+	font-size:14px;
+}
+
+.video_views
+{
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.video_views a:hover
+{
+	color:#FFF;
+}
+
+.video_share
+{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.youtube_info_top_inner,.youtube_like
+{
+	float:left;
+}
+
+.youtube_like
+{
+	margin-top:2px;
+}
+
+.youtube_info_02
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/youtube_shadow_high_res.png) 50% 0 no-repeat;
+	background-size:100% auto;
+	float:left;
+	height:100px;
+	margin-left:85px;
+	width:790px;
+}
+
+.youtube_info_top_02
+{
+	color:#fff;
+	float:left;
+	font-size:12px;
+	height:30px;
+	margin-top:6px;
+	width:100%;
+}
+
+.video_title_02
+{
+	color:#000;
+	font-family:AvenirLT-Heavy;
+	font-size:22px;
+	margin-top:-40px!important;
+}
+
+.youtube_info_top_02 a
+{
+	color:#fff;
+	font-family:AvenirLT-Heavy;
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+.video_close
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/video_close_high_res.png) no-repeat;
+	background-size:28px 60px;
+	cursor:pointer;
+	height:60px;
+	position:absolute;
+	right:57px;
+	top:0;
+	width:28px;
+}
+
+.video_close_active
+{
+	-moz-transition:visibility .2s linear,opacity .2s linear;
+	-o-transition:visibility .2s linear,opacity .2s linear;
+	-webkit-transition:visibility .2s linear,opacity .2s linear;
+	display:block;
+	height:60px;
+	margin:0;
+	opacity:0;
+	visibility:hidden;
+	width:28px;
+}
+
+a:hover .video_close_active
+{
+	opacity:1;
+	visibility:visible;
+}
+
+#black_band
+{
+	background:#000 url(/etc/designs/wow/clientlibs_crackin/images/white_band_bg.png) 0 -1px repeat-x;
+	background-size:1px 92px;
+	height:89px;
+	position:relative;
+	width:100%;
+}
+
+#black_band_01
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/white_band_bg.png) 0 -1px repeat-x;
+	background-size:1px 92px;
+	height:89px;
+	position:relative;
+	width:100%;
+	z-index:999999;
+}
+
+.black_band_tab
+{
+	float:left;
+	height:90px;
+	margin-left:40px;
+	width:247px;
+}
+
+#white_band_01
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/white_band_bg.png) 0 -1px repeat-x;
+	bottom:-1px;
+	height:89px;
+	left:0;
+	position:absolute;
+	width:100%;
+	z-index:999999;
+}
+
+#black_band_02
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/black_band_bg_02_high_res.png) 0 -5px repeat-x;
+	background-size:1px 100px;
+	bottom:-1px;
+	height:95px;
+	left:0;
+	position:absolute;
+	width:100%;
+}
+
+#black_band_03
+{
+	background-size:1px 100px;
+	position:relative;
+	width:100%;
+	z-index:999999;
+}
+
+#video_thumbs
+{
+	background:#fff;
+	margin-top:-1px;
+	min-height:500px;
+	padding-bottom:50px;
+}
+
+.video_header
+{
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:15px;
+	padding-top:10px;
+	width:940px;
+}
+
+.header_title
+{
+	color:#bfbfbf;
+	float:left;
+	font-family:AvenirLT-Heavy;
+	font-size:36px;
+	height:30px;
+	text-shadow:0 2px 2px #fff;
+}
+
+.header_type
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/arrow_down_high_res.png) 100% 2px no-repeat;
+	background-size:11px 6px;
+	color:#bfbfbf;
+	float:right;
+	font-family:AvenirLT-Heavy;
+	font-size:12px;
+	height:15px;
+	margin-top:20px;
+	padding-right:15px;
+	text-shadow:0 1px #fff;
+	text-transform:uppercase;
+}
+
+.video_items
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0;
+}
+
+.video_item
+{
+	display:block;
+	float:left;
+	margin:15px 6px;
+	padding:5px;
+}
+
+.video_item:hover
+{
+	background:#a7e84d;
+	color:#fff;
+	text-decoration: none !important;
+}
+
+.video_thumb
+{
+	border:1px solid #ccc;
+	height:121px;
+	width:215px;
+}
+
+.video_thumb_text
+{
+	padding:5px;
+}
+
+.video_thumb_title
+{
+	color:#666;
+	font-family:AvenirLT-Heavy;
+	font-size:14px;
+}
+
+.video_thumb_views
+{
+	color:#666;
+	font-family:AvenirLT-Medium;
+	font-size:12px;
+}
+
+.now_playing
+{
+	color:#fff;
+	display:none;
+}
+
+.video_item:hover .now_playing
+{
+	display:inline;
+}
+
+#footer
+{
+	background:#000;
+	height:40px;
+}
+
+#footer_02
+{
+	background:#fff url(/etc/designs/wow/clientlibs_crackin/images/footer_02_bg.jpg) 0 0 repeat-x;
+	height:540px;
+	position:relative;
+	z-index:999999;
+}
+
+#footer_03
+{
+	background:#fff url(/etc/designs/wow/clientlibs_crackin/images/footer_02_bg.jpg) 0 245px repeat-x;
+	height:570px;
+	position:relative;
+	z-index:999999;
+}
+
+#footer_04
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/footer_02_bg.jpg) 0 90px repeat-x;
+	position:relative;
+	z-index:999999;
+}
+
+#footer_05
+{
+	background:#fff;
+	padding-bottom:50px;
+	position:relative;
+	z-index:999999;
+}
+
+.footer_02_header
+{
+	display:block;
+	float:left;
+	height:35px;
+	margin-bottom:20px;
+	margin-top:20px;
+	width:100%;
+}
+
+.footer_02_text
+{
+	color:#fff;
+	font-family:AvenirLT-Medium;
+	font-size:12px;
+	padding:15px;
+}
+
+.footer_02_text a img
+{
+	height:auto!important;
+	width:100%;
+}
+
+.footer_02_quarter a,.footer_02_quarter a:visited
+{
+	color:#fff;
+}
+
+.footer_02_text_small
+{
+	color:#999;
+	font-size:10px;
+}
+
+.footer_02_quarter
+{
+	float:left;
+	line-height:18px;
+	padding-left:2%;
+	padding-right:2%;
+	width:21%;
+}
+#brand_footer {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    border-spacing: 0px;
+}
+
+
+.social_icon
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#twitter
+{
+	height:22px;
+	width:33px;
+}
+
+#facebook
+{
+	height:30px;
+	width:15px;
+}
+
+#pinterest
+{
+	height:32px;
+	width:32px;
+}
+
+#instagram
+{
+	height:29px;
+	width:29px;
+}
+
+.footer_01_center
+{
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.footer_02_center
+{
+	padding-left:50px;
+	padding-right:25px;
+}
+
+.footer_03_center
+{
+	height:75px;
+	width:100%;
+}
+
+.footer_04_center
+{
+	width:100%;
+}
+
+.footer_02_image
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:90%;
+	width:90%;
+}
+
+#more_content
+{
+	padding-bottom:25px;
+	padding-top:30px;
+	width:60px;
+}
+
+.view_more_content
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/down_gray_arrow_high_res.png) 100% -13px no-repeat;
+	background-size:19px 25px;
+	color:#999;
+	display:block;
+	font-family:AvenirLT-Heavy;
+	font-size:10px;
+	height:15px;
+	overflow:hidden;
+	padding-right:15px;
+	text-transform:uppercase;
+}
+
+.view_more_content:hover
+{
+	background-position:100% 2px;
+	color:#8dc63f;
+}
+
+#footer_scroller
+{
+	height:300px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	position:relative;
+	width:100%;
+}
+
+.scroll_shadow
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/scroll_shadow.png) repeat;
+	height:49px;
+	left:0;
+	position:absolute;
+	top:326px;
+	width:836px;
+	z-index:999999;
+}
+
+.products_bg
+{
+	height:auto;
+	left:0;
+	max-width:100%;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:1;
+}
+
+.product_container
+{
+	display:block;
+	float:left;
+	height:auto;
+	margin:0;
+	padding:0;
+	position:relative;
+	width:50%;
+	z-index:9999;
+}
+
+#product_link_01
+{
+	height:550px!important;
+}
+
+#product_link_02
+{
+	height:550px!important;
+}
+
+#product_link_03
+{
+	height:450px!important;
+}
+
+#product_link_04
+{
+	height:450px!important;
+}
+
+#product_link_05
+{
+	height:500px!important;
+}
+
+#product_link_06
+{
+	height:500px!important;
+}
+
+.product_active
+{
+	-moz-transition:visibility 0 linear,opacity 0 linear;
+	-o-transition:visibility 0 linear,opacity 0 linear;
+	-webkit-transition:visibility 0 linear,opacity 0 linear;
+	filter:alpha(opacity=0);
+	height:auto;
+	left:0;
+	max-width:100%;
+	opacity:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:9999;
+}
+
+.product_deactive
+{
+	float:left;
+	height:auto;
+	max-width:100%;
+	position:relative;
+	width:100%;
+	z-index:1;
+}
+
+.product_active:hover
+{
+	filter:alpha(opacity=100);
+	opacity:1;
+	visibility:visible;
+}
+
+#product_list
+{
+	left:0;
+	position:absolute;
+	top:0;
+	z-index:1;
+}
+
+.breadcrumbs
+{
+	color:#000;
+	font-family:AvenirLT-Medium;
+	font-size:12px;
+	left:35px;
+	position:absolute;
+	text-transform:uppercase;
+	top:110px;
+	z-index:999999;
+}
+
+.breadcrumbs a
+{
+	color:#000;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+
+
+	#pistachio-videos-page .youtube_info{
+		width: 720px;
+		margin: 0 auto;
+	}
+
+	#pistachio-videos-page .youtube_info .youtube_info_top > div {
+		padding-left: 0 !important;
+	}
+
+	#pistachio-videos-page .youtube_info .youtube_info_top .video_next{
+		margin-left: 0;
+	}
+
+	#pistachio-videos-page .youtube_info .youtube_info_top .video_share{
+		color: #8dc63f;
+	}	
+
+	#pistachio-products-page .breadcrumbs a,
+	#pistachio-products-page #product_overlay .product_hero_text_inner .nutrition_facts,
+	#pistachio-products-page #product_overlay .product_hero_text_inner #social_links
+	{
+		color:#000 !important;
+	}
+}
+
+
+#breadcrumb_02,#breadcrumb_03,#breadcrumb_04,#breadcrumb_05,#breadcrumb_06
+{
+	display:none;
+}
+
+.store_button
+{
+	float:right;
+	height:39px;
+	width:39px;
+}
+
+#store_form
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/store_search_bg_high_res.png) 0 50% no-repeat;
+	background-size:213px 42px;
+	height:42px;
+	width:260px!important;
+}
+
+#store_header
+{
+	color:#8dc63f;
+	font-family:AvenirLT-Medium;
+	font-size:30px;
+	margin-bottom:50px;
+	margin-top:50px;
+	text-align:center;
+}
+
+.store_search
+{
+	background:none;
+	border:none;
+	color:#999;
+	float:left;
+	font-size:12px;
+	height:42px;
+	line-height:42px;
+	text-align:center;
+	text-transform:uppercase;
+	width:216px;
+}
+
+#footer_nav
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/footer_nav_bg.png) 0 100% repeat-x;
+	padding-bottom: 21px;
+}
+
+#footer_nav_center
+{
+	height:326px;
+}
+
+.footer_nav_img
+{
+	height:auto;
+	max-width:100%;
+	width:100%;
+}
+
+.small_print
+{
+	float:left;
+}
+
+.legal,.legal a
+{
+	color:#ccc;
+	font-size:12px;
+}
+
+.legal
+{
+	font-family:AvenirLT-Medium;
+	margin-right:20px;
+}
+
+.legal a
+{
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.legal a:hover
+{
+	color:#fff;
+}
+
+.copyright
+{
+	color:#999;
+	font-family:AvenirLT-Medium;
+	font-size:10px;
+}
+
+.footer_logo
+{
+	height:34px;
+	position:absolute;
+	right:90px;
+	top:25px;
+	width:118px;
+}
+
+.footer_headline
+{
+	display:block;
+	height:21px;
+	margin-left:auto;
+	margin-right:auto;
+	width:267px;
+}
+
+.footer_headline_position
+{
+	left:0;
+	position:absolute;
+	top:40px;
+	width:92%;
+}
+
+.footer_midsection
+{
+	float:left;
+	margin-top:100px;
+	width:100%;
+}
+
+.footer_nav_quarter
+{
+	float:left;
+	height:180px;
+}
+
+#footer_nav_quarter_01
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/footer_division.png) 100% 0 no-repeat;
+	width:35%;
+}
+
+#footer_nav_quarter_02
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/footer_division.png) 100% 0 no-repeat;
+	width:20%;
+}
+
+#footer_nav_quarter_03
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/footer_division.png) 100% 0 no-repeat;
+	width:20%;
+}
+
+#footer_nav_quarter_04
+{
+	width:25%;
+}
+
+.footer_form
+{
+	margin-right:20px;
+}
+
+.footer_nav_half
+{
+	float:left;
+	height:180px;
+	line-height:18px;
+	width:50%;
+}
+
+.footer_nav_half a
+{
+	color:#ccc;
+	font-family:AvenirLT-Medium;
+	font-size:12px;
+}
+
+.footer_nav_whole
+{
+	color:#ccc;
+	float:right;
+	font-family:AvenirLT-Medium;
+	font-size:12px;
+	line-height:18px;
+	width:181px;
+}
+
+.footer_nav_half a:hover
+{
+	color:#8dc63f;
+	text-decoration: none;
+}
+
+.footer_nav_quarter_header
+{
+	color:#8dc63f;
+	font-family:AvenirLT-Medium;
+	font-size:10px;
+	margin-bottom:10px;
+	text-transform:uppercase;
+}
+
+#footer_nav_quarter_header_02
+{
+	text-align:center;
+	width:100%;
+}
+
+#footer_nav_quarter_header_03
+{
+	float:right;
+	width:181px;
+}
+
+.getcrackin_bag
+{
+	display:block;
+	height:128px;
+	margin-left:auto;
+	margin-right:auto;
+	width:107px;
+}
+
+.social_circle
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:170px;
+}
+
+.social_circle_half
+{
+	float:left;
+}
+
+.social_circle_half a
+{
+	display:block;
+	line-height:999999px;
+	overflow:hidden;
+}
+
+.facebook_circle
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/facebook_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 100px;
+	height:50px;
+	margin-bottom:5px;
+	margin-left:10px;
+	width:45px;
+}
+
+.facebook_circle:hover
+{
+	background-position:0 -51px;
+}
+
+.twitter_circle
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/twitter_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 100px;
+	height:50px;
+	margin-bottom:5px;
+	margin-left:10px;
+	width:45px;
+}
+
+.twitter_circle:hover
+{
+	background-position:0 -51px;
+}
+
+.pinterest_circle
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/pinterest_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 100px;
+	height:50px;
+	margin-left:10px;
+	width:45px;
+}
+
+.pinterest_circle:hover
+{
+	background-position:0 -51px;
+}
+
+.google_circle
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/google_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 100px;
+	height:50px;
+	margin-bottom:5px;
+	margin-left:10px;
+	width:45px;
+}
+
+.google_circle:hover
+{
+	background-position:0 -51px;
+}
+
+.youtube_circle
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/youtube_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 100px;
+	height:50px;
+	margin-left:10px;
+	width:45px;
+}
+
+.youtube_circle:hover
+{
+	background-position:0 -51px;
+}
+
+.instagram_circle
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/instagram_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 100px;
+	height:50px;
+	margin-left:10px;
+	width:45px;
+}
+
+.instagram_circle:hover
+{
+	background-position:0 -51px;
+}
+
+.footer_nav_form_bg
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/footer_nav_form_bg_high_res.png) 0 0 no-repeat;
+	background-size:181px 24px;
+	float:right;
+	height:24px;
+	margin-top:7px;
+	width:181px;
+}
+
+.footer_nav_form_input
+{
+	background:none;
+	border:none;
+	color:#999;
+	font-szie:12px;
+	padding-left:10px;
+}
+
+.join_button
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/join_button_high_res.png) 0 100% no-repeat;
+	background-size:61px 57px;
+	display:block;
+	float:right;
+	height:29px;
+	line-height:999999px;
+	margin-left:15px;
+	margin-top:7px;
+	overflow:hidden;
+	width:61px;
+}
+
+.join_button:hover
+{
+	background-position:0 0;
+}
+
+.join_button_position
+{
+	float:right;
+	width:181px;
+}
+
+#products
+{
+	background:#75b211;
+	display:none;
+	height:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:999999;
+}
+
+.product_track
+{
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+}
+
+#product_center
+{
+	background:#75b211 url(/etc/designs/wow/clientlibs_crackin/images/bg_green_high_res.jpg) 50% 0 no-repeat;
+	background-size:960px auto;
+	height:auto;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+}
+
+#product_division
+{
+	background-position:50% 700px;
+	height:2000px;
+	position:relative;
+}
+
+.product_nutrition
+{
+	height:950px;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:1;
+}
+
+.nutrition_card_shell
+{
+	bottom:154px;
+	height:371px;
+	left:0;
+	position:absolute;
+	width:100%;
+}
+
+.nutrition_card_outer
+{
+	height:371px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	position:relative;
+	width:960px;
+}
+
+.nutrition_card_inner
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/nutrition_card_bg_high_res.png);
+	background-size:630px 371px;
+	bottom:-371px;
+	height:371px;
+	left:155px;
+	position:absolute;
+	width:630px;
+}
+
+.nutrition_card
+{
+	height:209px;
+	left:100px;
+	position:absolute;
+	top:138px;
+	width:429px;
+}
+
+.nutrition_card_close
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/nutrition_close_02.png) 0 -15px no-repeat;
+	background-size:14px 30px;
+	height:15px;
+	line-height:99999px;
+	overflow:hidden;
+	position:absolute;
+	right:100px;
+	top:98px;
+	width:14px;
+}
+
+.nutrition-mobile-container .nutrition-title{
+	position: relative;
+  padding-top: 10px;
+  background: white;
+  margin-top: 10px;
+}
+
+#products .nutrition-mobile-container.mobileOnly{
+	position: relative;
+  padding-top: 10px;
+  background: white;
+  margin-top: 10px;
+  display: none;
+}
+
+.mobileOnly .nutrition_card_close
+{
+	top:10px;
+	right: 10px;
+	z-index: 1;
+}
+
+.nutrition_card_close:hover
+{
+	background-position:0 0;
+}
+
+.nutrition_card_shadow
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/card_shadow.png) repeat-x;
+	bottom:0;
+	display:none;
+	height:37px;
+	left:230px;
+	position:absolute;
+	width:478px;
+}
+
+.product_division_shadow
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/single_product_division_02.png) 50% -250px no-repeat;
+	bottom:73px;
+	height:250px;
+	left:0;
+	overflow:hidden;
+	position:absolute;
+	width:100%;
+}
+
+.product_button_left
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/left_black_arrow_high_res.png) 100% 50% no-repeat;
+	background-size:100px 50px;
+	display:block;
+	height:800px;
+	left:5px;
+	position:absolute;
+	top:0;
+	width:50px;
+	z-index:999999999;
+}
+
+.product_button_left:hover
+{
+	background-position:0 50%;
+}
+
+.product_button_right
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/right_black_arrow_high_res.png) 100% 50% no-repeat;
+	background-size:100px 50px;
+	display:block;
+	height:800px;
+	position:absolute;
+	right:5px;
+	top:0;
+	width:50px;
+	z-index:999999999;
+}
+
+.product_button_right:hover
+{
+	background-position:0 50%;
+}
+
+.product_hero
+{
+	height:auto;
+	margin-top:200px;
+	max-width:100%;
+	width:100%;
+}
+
+#product_overlay
+{
+	height:800px;
+	z-index:9999999999;
+}
+
+.product_close
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/product_close_high_res.png) 0 0 no-repeat;
+	background-size:137px 129px;
+	display:block;
+	height:129px;
+	position:absolute;
+	right:5px;
+	top:50px;
+	width:69px;
+	z-index:999999999;
+}
+
+.product_close:hover
+{
+	background-position:-68px 0;
+}
+
+.product_thumb_header
+{
+	height:16px;
+	left:0;
+	margin:0 auto;
+	position:relative;
+	top:0;
+	width:300px;
+}
+
+#product_thumbs
+{
+	height:300px;
+	position:relative;
+	z-index:99999999999999;
+}
+
+.product_thumbs
+{
+	float:left;
+	height:auto;
+	max-width:100%;
+	width:100%;
+}
+
+.product_hero_text_01
+{
+	height:400px;
+	left:0;
+	padding-left:100px;
+	position:absolute;
+	top:200px;
+	width:500px;
+	z-index:2;
+}
+
+.nutrition_facts
+{
+	color:#000;
+	font-family:AvenirLT-Heavy;
+	font-size:14px;
+	text-transform:uppercase;
+}
+
+.nutrition_facts:hover
+{
+	color:#fff;
+	text-decoration: none;
+}
+
+.social_links
+{
+	color:#000;
+	font-family:AvenirLT-Heavy;
+	font-size:14px;
+	text-transform:uppercase;
+}
+
+.social_links:hover
+{
+	color:#fff;
+}
+
+.social_links_02
+{
+	color:#ccc;
+	font-family:AvenirLT-Heavy;
+	font-size:14px;
+	margin-bottom:15px;
+	margin-left:15px;
+	margin-top:20px;
+	text-transform:uppercase;
+}
+
+.social_links_02_green
+{
+	color:#8dc63f;
+}
+
+.product_hero_text_inner
+{
+	margin-left:40px;
+	width:275px;
+}
+
+.product_hero_header_01
+{
+	margin-top:30px;
+	width:100%;
+}
+
+.product_hero_header_divide
+{
+	height:3px;
+	margin-bottom:20px;
+	margin-top:20px;
+	width:100%;
+}
+
+.product_hero_text
+{
+	font-family:AvenirLT-Roman;
+	font-size:14px;
+	line-height:20px;
+}
+
+.product_hero_social
+{
+	position:relative;
+	width:100%;
+}
+
+.product_hero_social_half
+{
+	float:left;
+	width:75px;
+}
+
+#product_hero_social_half_01
+{
+	padding-top:3px;
+}
+
+.social_default
+{
+	left:0;
+	position:absolute;
+	top:0;
+	width:150px;
+	z-index:1;
+}
+
+.social_black_box
+{
+	background:#000 url(/etc/designs/wow/clientlibs_crackin/images/social_black_box_bg.png) 0 0 no-repeat;
+	display:none;
+	height:115px;
+	left:-15px;
+	position:absolute;
+	top:-15px;
+	width:220px;
+	z-index:9999999;
+}
+
+.social_black_box_close
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/social_black_box_close.png) 0 -50px no-repeat;
+	background-size:24px 98px;
+	display:block;
+	height:49px;
+	left:-23px;
+	line-height:999999px;
+	overflow:hidden;
+	position:absolute;
+	top:-1px;
+	width:24px;
+}
+
+.social_black_box_close:hover
+{
+	background-position:0 1px;
+}
+
+.social_links_row
+{
+	float:left;
+}
+
+.social_links_row a
+{
+	display:block;
+	float:left;
+	line-height:999999px;
+	overflow:hidden;
+}
+
+.facebook_circle_02
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/facebook_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 100px;
+	height:50px;
+	margin-left:15px;
+	width:45px;
+}
+
+.facebook_circle_02:hover
+{
+	background-position:0 -51px;
+}
+
+.twitter_circle_02
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/twitter_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 100px;
+	height:50px;
+	margin-left:5px;
+	width:45px;
+}
+
+.twitter_circle_02:hover
+{
+	background-position:0 -51px;
+}
+
+.pinterest_circle_02
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/pinterest_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 100px;
+	height:50px;
+	margin-left:5px;
+	width:45px;
+}
+
+.pinterest_circle_02:hover
+{
+	background-position:0 -51px;
+}
+
+.google_circle_02
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/google_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 100px;
+	height:50px;
+	margin-left:5px;
+	width:45px;
+}
+
+.google_circle_02:hover
+{
+	background-position:0 -51px;
+}
+
+.contest_01
+{
+	width:100%;
+}
+
+#blog_nav
+{
+	left:0;
+	position:absolute;
+	top:0;
+}
+
+#blog_outer
+{
+//	margin-top:50px;
+	width:800px;
+}
+
+#blog_inner_center
+{
+	height:100%;
+	width:50%;
+}
+
+#blog_inner_right
+{
+	height:100%;
+	width:50%;
+}
+
+.blog_table
+{
+	height:100%;
+	width:100%;
+}
+
+.blog_inner_left
+{
+	vertical-align:top;
+	width:5%;
+}
+
+.blog_inner_center
+{
+	vertical-align:top;
+	width:75%;
+}
+
+.blog_inner_right
+{
+	vertical-align:top;
+	width:10%;
+}
+
+.blog_shadow
+{
+	height:100%;
+	width:100%;
+}
+
+.blog_inner_right #undefined-sticky-wrapper.sticky{
+	position: fixed;
+	top: -42px;
+}
+
+.top_left
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_shadow_01.png) 0 0 no-repeat;
+	height:87px;
+	width:50%;
+}
+
+.top_right
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_shadow_02.png) 100% 0 no-repeat;
+	height:87px;
+	width:50%;
+}
+
+.mid_left
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_shadow_03.png) 0 0 repeat-y;
+	width:44px;
+}
+
+.mid_center
+{
+	background:#fff;
+	height:600px;
+	vertical-align:top;
+}
+
+.mid_right
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_shadow_05.png) 100% 0 repeat-y;
+	width:45px;
+}
+
+.bottom_left
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_shadow_06.png) 0 0 no-repeat;
+	height:88px;
+	width:50%;
+}
+
+.bottom_right
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_shadow_07.png) 100% 0 no-repeat;
+	height:88px;
+	width:50%;
+}
+
+.blog_header
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_divide.png) 50% 100% no-repeat;
+	background-size:100% auto;
+	float:left;
+	height:100px;
+	width:100%;
+  margin-top: 28px;
+}
+
+.blog_header_image
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	width:70%;
+}
+
+.blog_item
+{
+	float:left;
+	position:relative;
+	width:100%;
+}
+
+.blog_date
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_date_bg_high_res.png) no-repeat;
+	background-size:37px 170px;
+	height:170px;
+	left:-54px;
+	position:absolute;
+	top:40px;
+	width:37px;
+}
+
+.blog_month
+{
+	color:#8dc63f;
+	font-family:AvenirLT-Heavy;
+	font-size:10px;
+	margin-top:72px;
+	padding-right:3px;
+	text-align:right;
+	text-transform:uppercase;
+}
+
+.blog_day
+{
+	color:#8dc63f;
+	font-family:AvenirLT-Heavy;
+	font-size:17px;
+	padding-right:3px;
+	text-align:right;
+}
+
+.blog_mobile_header {
+	display:none;
+}
+
+.blog_mobile_date {
+	display:none;
+}
+
+.blog_post_headline,
+.blog_content .blog_post_headline
+{
+	color:#000;
+	font-family:AvenirLT-Medium;
+	font-size:32px;
+}
+
+a.blog_post_headline:hover
+{
+	color:#8dc63f;
+}
+
+.blog_post_headline:visited, .blog_post_headline:link
+{
+	color:#000;
+}
+
+.blog_content
+{
+	margin-top:10px;
+	padding:10px;
+}
+
+.sidebar_outer
+{
+	position:relative;
+	visibility:none;
+	width:100%;
+	top: -70px;
+}
+
+.sidebar_inner
+{
+	left:-28px;
+	position:absolute;
+	top:60px;
+	width:160px;
+}
+
+.sidebar_bg
+{
+	height:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:1;
+}
+
+.sidebar_content
+{
+	padding-bottom:80px;
+	padding-top:80px;
+	position:relative;
+	z-index:999999;
+}
+
+.sidebar_nav
+{
+	padding:30px;
+}
+
+.blogcats
+{
+	list-style:none;
+	padding-left:0;
+}
+
+.current-cat a
+{
+	color:#8dc63f!important;
+}
+
+.sidebar_title
+{
+	color:#8dc63f;
+	font-family:AvenirLT-Heavy;
+	font-size:10px;
+	text-transform:uppercase;
+}
+
+.sidebar_link,.blogcats li a
+{
+	color:#fff;
+	display:block;
+	font-size:11px;
+	margin-top:10px;
+	width:100%;
+}
+
+.sidebar_link:hover,.blogcats li a:hover
+{
+	color:#8dc63f;
+}
+
+#sidebar_title_02
+{
+	margin-top:30px;
+}
+
+.search
+{
+	height:28px;
+	margin-top:10px;
+	position:relative;
+	width:129px;
+}
+
+.search_button
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/search_button_high_res.png) 0 0 no-repeat;
+	background-size:13px 14px;
+	height:14px;
+	position:absolute;
+	right:10px;
+	top:6px;
+	width:13px;
+}
+
+.search_bg
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/search_bg_high_res.png) 0 0 no-repeat;
+	background-size:129px 28px;
+	height:28px;
+	left:-15px;
+	position:absolute;
+	width:129px;
+}
+
+.search_input
+{
+	background:none;
+	border:none;
+	color:#999;
+	font-family:AvenirLT-Medium;
+	font-size:10px;
+	height:25px;
+	line-height:20px;
+	padding-left:15px;
+}
+
+.blog_meta
+{
+	float:left;
+	margin-bottom:20px;
+	width:100%;
+}
+
+.blog_post_category
+{
+	color:#8dc63f;
+	float:left;
+	font-size:10px;
+	height:26px;
+	line-height:26px;
+}
+
+.blog_post_like
+{
+	float:left;
+	margin-left:10px;
+}
+
+.blog_post_like_02
+{
+	float:left;
+}
+
+.blog_hero
+{
+	margin-bottom:20px;
+	width:100%;
+}
+
+.blog_text
+{
+	color:#333;
+	font-family:AvenirLT-Roman;
+	font-size:12px;
+	line-height:20px;
+	margin-bottom:20px;
+	width:100%;
+}
+
+.blog_text_tiny,.blog_text_tiny a,.blog_text_tiny a:visited
+{
+	background-size:100% auto;
+	color:#333;
+	font-family:AvenirLT-Roman;
+	font-size:12px;
+	font-style:italic;
+	line-height:20px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+	width:100%;
+}
+
+.blog_text_tiny a:hover
+{
+	color:#8dc63f;
+	font-family:AvenirLT-Roman;
+	font-weightl:bold;
+}
+
+.facebook_blog
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/facebook_blog_high_res.png) 0 100% no-repeat;
+	background-size:21px 45px;
+	display:block;
+	float:left;
+	height:21px;
+	line-height:999999px;
+	margin-left:10px;
+	width:21px;
+}
+
+.facebook_blog:hover
+{
+	background-position:0 0;
+}
+
+.twitter_blog
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/twitter_blog_high_res.png) 0 100% no-repeat;
+	background-size:21px 45px;
+	display:block;
+	float:left;
+	height:21px;
+	line-height:999999px;
+	margin-left:10px;
+	width:21px;
+}
+
+.twitter_blog:hover
+{
+	background-position:0 0;
+}
+
+.pinterest_blog
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/pinterest_blog_high_res.png) 0 100% no-repeat;
+	background-size:21px 45px;
+	display:block;
+	float:left;
+	height:21px;
+	line-height:999999px;
+	margin-left:10px;
+	width:21px;
+}
+
+.pinterest_blog:hover
+{
+	background-position:0 0;
+}
+
+.google_blog
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/google_blog_high_res.png) 0 100% no-repeat;
+	background-size:21px 45px;
+	display:block;
+	float:left;
+	height:21px;
+	line-height:999999px;
+	margin-left:10px;
+	width:21px;
+}
+
+.google_blog:hover
+{
+	background-position:0 1px;
+}
+
+.blog_social
+{
+	float:left;
+	margin-left:10px;
+}
+
+.blog_link
+{
+	float:left;
+	margin-left:10px;
+}
+
+.blog_link_show
+{
+	color:#8dc63f;
+	float:left;
+	font-family:AvenirLT-Heavy;
+	font-size:10px;
+	height:21px;
+	line-height:21px;
+	text-transform:uppercase;
+}
+
+.blog_link_copy_box
+{
+	border:1px solid #a0a0a0;
+	color:#a0a0a0;
+	float:left;
+	font-size:10px;
+	height:21px;
+	line-height:21px;
+	margin-left:10px;
+	overflow:hidden;
+	padding-left:5px;
+	width:160px;
+}
+
+.blog_link_copy_box_inner
+{
+	float:left;
+	width:1000px;
+}
+
+.blog_link_post
+{
+	display:none;
+	float:left;
+}
+
+.blog_link_button
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_link_button_high_res.png) 0 -23px no-repeat;
+	background-size:49px 45px;
+	display:block;
+	float:left;
+	height:23px;
+	line-height:99999px;
+	margin-left:10px;
+	overflow:hidden;
+	width:49px;
+}
+
+.blog_link_button:hover
+{
+	background-position:0 0;
+}
+
+.related_post
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_divide_high_res.png) 50% 100% no-repeat;
+	background-size:100% auto;
+	float:left;
+	list-style:none;
+	margin-bottom:20px;
+	margin-right:20px;
+	padding-bottom:20px;
+	width:660px;
+        max-width: 496px;
+}
+
+.related_posts_title,.comments_title_01
+{
+	color:#8dc63f;
+	float:left;
+	font-family:AvenirLT-Heavy;
+	font-size:12px;
+	margin-bottom:5px;
+	margin-top:10px;
+	text-align:center;
+	text-transform:uppercase;
+	width:100%;
+}
+
+.comments_title_02
+{
+	color:#8dc63f;
+	float:left;
+	font-family:AvenirLT-Heavy;
+	font-size:12px;
+	margin-top:30px;
+	text-align:center;
+	text-transform:uppercase;
+	width:100%;
+}
+
+.related_posts_content
+{
+	float:left;
+	margin-top:20px;
+	width:100%;
+}
+
+.related_posts_item,.related_post li
+{
+	float:left;
+	text-align:center;
+	width:33%;
+}
+
+.related_posts_spacer
+{
+	float:left;
+	height:150px;
+	width:5%;
+}
+
+.related_posts_image
+{
+	float:left;
+	width:100%;
+}
+
+.related_posts_text,.related_post li .wp_rp_title
+{
+	color:#666!important;
+	float:left;
+	font-family:AvenirLT-Medium;
+	font-size:12px;
+	line-height:20px;
+	margin-left:5%;
+	margin-top:10px;
+	text-align:center;
+	width:90%;
+}
+
+.wp_rp_title
+{
+	line-height:15px!important;
+}
+
+.comment_text
+{
+	background:#eef7e2;
+	color:#333;
+}
+
+.comment_text_inner
+{
+	font-family:AvenirLT-Roman;
+	font-size:12px;
+	line-height:20px;
+	padding:20px;
+}
+
+.comment_author
+{
+	font-family:AvenirLT-Medium;
+	font-size:15px;
+	margin-bottom:10px;
+}
+
+.comment_date
+{
+	font-size:10px;
+	margin-left:10px;
+}
+
+.comment_item
+{
+	float:left;
+	margin-top:20px;
+}
+
+.comment_input_outer_01
+{
+	border:1px solid #a0a0a0;
+	height:30px;
+	margin-bottom:10px;
+	width:100%;
+}
+
+.comment_form
+{
+	float:left;
+	margin-top:20px;
+	width:100%;
+}
+
+.comment_form_inner
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:95%;
+}
+
+.comment_input
+{
+	background:none;
+	border:none;
+	color:#a0a0a0;
+	font-size:10px;
+	height:30px;
+	line-height:30px;
+	padding-left:10px;
+	width:95%;
+}
+
+.comment_input_outer_02
+{
+	border:1px solid #a0a0a0;
+	height:170px;
+	margin-bottom:10px;
+	width:100%;
+}
+
+.comment_textarea
+{
+	background:none;
+	border:none;
+	color:#a0a0a0;
+	font-size:10px;
+	overflow:hidden;
+	padding:10px;
+	width:300px height: 85%;
+}
+
+.comment_submit_button
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/comment_submit_button_high_res.jpg) 0 100% no-repeat;
+	background-size:172px 170px;
+	display:block;
+	float:right;
+	height:58px;
+	line-height:9999999px;
+	margin-bottom:20px;
+	overflow:hidden;
+	width:172px;
+}
+
+.comment_submit_button:hover
+{
+	background-position:0 1px;
+}
+
+.blog_divide
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_divide_high_res.png) 50% 100% no-repeat;
+	background-size:100% auto;
+	float:left;
+	height:5px;
+	margin-bottom:20px;
+	width:100%;
+}
+
+.blog_read_more
+{
+	color:#000;
+	font-family:AvenirLT-Heavy;
+	margin-left:5px;
+	text-transform:uppercase;
+}
+
+.blog_read_more:hover
+{
+	color:#8dc63f;
+}
+
+.blog_pagination_number
+{
+	color:#333;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:17px;
+	line-height:17px;
+	margin-left:5px;
+	margin-right:5px;
+	text-align:center;
+	width:17px;
+}
+
+.blog_pagination_number:visited, .blog_pagination_number:link,
+.blog_pagination_number_next:visited, .blog_pagination_number_next:link
+{
+	color:#333;
+}
+
+.blog_pagination_current_number:visited, .blog_pagination_current_number:link{
+	color: white;
+}
+
+.blog_pagination_number:hover,.blog_pagination_current_number
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_number_bg_high_res.png) no-repeat;
+	background-size:17px 17px;
+	color:#fff;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:17px;
+	line-height:17px;
+	text-align:center;
+	width:17px;
+}
+
+.blog_pagination_number_next
+{
+	color:#333;
+	display:block;
+	float:left;
+	font-size:12px;
+	height:17px;
+	line-height:17px;
+	margin-left:10px;
+	margin-right:10px;
+	text-align:center;
+}
+
+.blog_pagination_number_next:hover
+{
+	color:#8dc63f;
+}
+
+.blog_pagination
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:250px;
+}
+
+.contact_header
+{
+	display:block;
+	height:29px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	width:373px;
+}
+
+.contact_tag
+{
+	font-family:AvenirLT-Medium;
+	line-height:20px;
+	margin-bottom:30px;
+	margin-top:30px;
+	text-align:center;
+}
+
+#contact-page .contact_tag{
+	font-size: 16px;
+}
+
+#contact-page .contact_iframe #td_description .tooltip,
+#contact-page .contact_iframe #tr_benefits .tooltip,
+#contact-page .contact_iframe #td_description,
+#contact-page .contact_iframe #td_event_description{
+	opacity: 1;
+}
+
+#contact-page {
+
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	#contact-page .contact_iframe #td_description .tooltip img,
+	#contact-page .contact_iframe #tr_benefits .tooltip img,
+	#contact-page .contact_iframe #td_description img,
+	#contact-page .contact_iframe #td_event_description img
+	{
+		display: none;
+	}
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	#contact-page .contact_iframe #td_event_description textarea,
+	#contact-page .contact_iframe #td_description textarea
+	{
+		height: 20px !important;
+	}
+}
+
+.contact_tag_top
+{
+	color:#000;
+}
+
+.contact_tag_bottom
+{
+	color:#8dc63f;
+}
+
+.contact_iframe
+{
+	height:400px;
+}
+
+#contact-page .contact_iframe
+{
+	height:auto;
+}
+
+.contact_address
+{
+	font-color:#333;
+	font-family:AvenirLT-Medium;
+	font-size:10px;
+	margin-bottom:100px;
+	margin-top:50px;
+	text-align:center;
+	width:100%;
+}
+
+.coupon_hero
+{
+	display:block;
+	height:252px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	width:410px;
+}
+
+.coupon_header
+{
+	display:block;
+	height:37px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+	width:477px;
+}
+
+.coupon_content
+{
+	margin-top:50px;
+	width:100%;
+}
+
+.coupon_form
+{
+	float:left;
+	width:40%;
+}
+
+.coupon_instructions
+{
+	float:left;
+	width:60%;
+}
+
+.coupon_title
+{
+	color:#8dc63f;
+	font-family:AvenirLT-Medium;
+	font-size:18px;
+	margin-bottom:10px;
+}
+
+.coupon_body
+{
+	color:#333;
+	font-family:AvenirLT-Roman;
+	font-size:14px;
+	line-height:18px;
+	margin-bottom:100px;
+}
+
+.coupon_list,.coupon_list li
+{
+	padding-left:15px;
+}
+
+.coupon_list li
+{
+	margin-bottom:10px;
+}
+
+.coupon_form_bg
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/coupon_form_input_bg_high_res.png) 0 0 no-repeat;
+	background-size:186px 25px;
+	height:25px;
+	margin-bottom:10px;
+	margin-top:5px;
+	width:186px;
+}
+
+.coupon_form_input
+{
+	background:none;
+	border:none;
+	height:100%;
+	line-height:25px;
+	width:100%;
+}
+
+.coupon_form_table
+{
+	font-family:AvenirLT-Roman;
+	font-size:14px;
+	margin-top:0;
+}
+
+.coupon_checkbox
+{
+	float:left;
+}
+
+.coupon_checkbox_copy
+{
+	float:left;
+	font-size:10px;
+	height:20px;
+	line-height:15px;
+	margin-bottom:15px;
+	margin-left:7px;
+	width:166px;
+}
+
+.get_my_coupon_button
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/get_my_coupon_button_high_res.png) 0 -53px no-repeat;
+	background-size:161px 101px;
+	display:block;
+	float:right;
+	height:48px;
+	line-height:9999px;
+	margin-top:10px;
+	overflow:hidden;
+	width:161px;
+}
+
+.get_my_coupon_button:hover
+{
+	background-position:0 0;
+}
+
+.coupon_submit
+{
+	width:186px;
+}
+
+.coupon_print
+{
+	font-family:AvenirLT-Roman;
+	font-size:10px;
+	line-height:17px;
+	margin:25px auto 50px;
+	width:375px;
+}
+
+.coupon_faq
+{
+	margin-bottom:100px;
+}
+
+.print_my_coupon_button
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/print_my_coupon_button_high_res.png) 0 -53px no-repeat;
+	background-size:161px 101px;
+	display:block;
+	height:54px;
+	line-height:9999px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	width:182px;
+}
+
+.print_my_coupon_button:hover
+{
+	background-position:0 0;
+}
+
+.faq_header
+{
+	display:block;
+	height:37px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+	width:401px;
+}
+
+.thanks_header
+{
+	display:block;
+	height:37px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+	width:266px;
+}
+
+.coupon_thanks
+{
+	font-family:AvenirLT-Roman;
+	font-size:12px;
+	line-height:17px;
+	margin-bottom:20px;
+	margin-top:25px;
+	text-align:center;
+	width:100%;
+}
+
+.coupon_thanks_title
+{
+	color:#8dc63f;
+	font-family:AvenirLT-Medium;
+	font-size:18px;
+	margin-bottom:20px;
+	text-align:center;
+	width:100%;
+}
+
+.coupon_thanks_social
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:220px;
+}
+
+.thanks_blog_divide
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/blog_divide_high_res.png) 50% 100% no-repeat;
+	background-size:100% auto;
+	float:left;
+	height:5px;
+	margin-bottom:30px;
+	width:100%;
+}
+
+.coupon_like
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.coupon_link_show
+{
+	color:#999;
+	display:block;
+	font-family:AvenirLT-Heavy;
+	font-size:10px;
+	height:21px;
+	line-height:21px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	text-align:center;
+	text-transform:uppercase;
+	width:200px;
+}
+
+.coupon_link_post
+{
+	display:none;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	width:250px;
+}
+
+.coupon_link_post_spacer
+{
+	height:50px;
+	width:100%;
+}
+
+.coupon_thanks_social a
+{
+	display:block;
+	float:left;
+	line-height:999999px;
+	overflow:hidden;
+}
+
+
+.coupon {
+    font-family: "AvenirRoman", "Helvetica Neue", Arial, sans-serif;
+    background: rgba(255, 255, 255, 0);
+}
+.coupon-desktop {
+        display: block;
+}
+
+.coupon-mobile {
+        display: none;
+}
+
+.coupon .offer-container {
+    height: 216px!important;
+    overflow-y: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 600px;
+    float: none;
+    text-align: left;
+    background-color: #fdfdfd;
+    border: solid 1px #e3e6e6;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.coupon .offer-container .imgcol {
+    float: left;
+    width: 180px;
+    height: 150px;
+    text-align: center;
+    margin: 45px 0px 25px 15px;
+    position: relative;
+
+}
+
+.coupon .offer-container .imgcol img {
+    max-width: 260px;
+    max-height: 260px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.coupon .offer-container .txtcol {
+    float: left;
+    width: 315px!important;
+    text-align: left;
+    margin: 39px 0px 0px 0px;
+}
+.coupon .offer-container .txtcol {
+    color: #2a3b41;
+    padding: 0px;
+    font-size: 28px;
+    line-height: 32px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    width: 100%;
+}
+
+
+.coupon .offer-container .txtcol h2 {
+    float: left;
+    color: #2a3b41;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 15px;
+    font-size: 28px;
+    line-height: 32px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    width: 100%;
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    text-transform: capitalize;
+    background: url(/etc/designs/wow/clientlibs_crackin/images/coupon/save-50-c.png) no-repeat left center;
+    height: 22px;
+    display: block;
+}
+
+.coupon .offer-container .txtcol p  {
+font-family: 'Open Sans',sans-serif;
+    margin-bottom: 15px;
+    float: left;
+    color: #2a3b41;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 14px!important;
+    font-weight: normal;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.coupon .offer-container .txtcol p span {
+    font-family: 'Open Sans',sans-serif;
+    float: left;
+    color: #8dc63f;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    line-height: 11px;
+    margin-top: 20px;
+    font-weight: normal;
+    width: 100%;
+}
+
+.coupon .offer-container .txtcol p.note span {
+    color: #e42d1f;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.coupon .titlespace h1.maintitle {
+    letter-spacing: 1px;
+    color: #e12f29;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 132px;
+    font-size: 40px;
+    margin:0;
+    padding:0;
+    margin-top: -37px;
+}
+
+.coupon .detail-instructions {
+    font-family: 'Avenir LT W01 85 Heavy',sans-serif;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
+.coupon .couponBodyText p.title-sweeps {
+    font-family: FuturaW01LightRegular;
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 35px;
+    text-align: center;
+    color: #e12f29;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
+.coupon .details {
+    /*padding-top: 25px;*/
+}
+
+.coupon .detail-note {
+    font-family: 'Avenir LT W01 55 Roman',sans-serif;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8dc63f;
+    margin-bottom: 0;
+}
+
+#terms-of-use-page .ui-panel-wrapper .page .blog_content .blog_text p a,
+#terms-of-use-page .ui-panel-wrapper .page .blog_content .blog_text p a:visited,
+#terms-of-use-page .ui-panel-wrapper .page .blog_content .blog_text p a:link,
+#terms-of-use-page .ui-panel-wrapper .page .blog_content .blog_text p a:active{
+	color: #8dc63f;
+	/*font-size: 12px;*/
+}
+
+@media screen and (min-width: 980px) {
+    .coupon  ul.steps {
+        padding-left: 17px;
+    }
+}
+
+.coupon ul.steps {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.coupon ul.steps li {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Avenir LT W01 55 Roman',sans-serif;
+    -moz-box-sizing: initial;
+    -webkit-box-sizing: initial;
+    box-sizing: initial;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    padding-left: 70px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    min-height: 70px;
+    padding-top: 30px;
+    line-height: 21px;
+    margin-right: 15px;
+    background-position-x: 3px;
+    line-height: 18px;
+
+}
+
+.coupon ul.steps li.step-1 {
+    background-image: url(/etc/designs/wow/clientlibs_crackin/images/coupon/1.png);
+    background-size: 45px 45px;
+    padding-left: 60px;
+    width: 190px;
+
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.coupon ul.steps li.step-2 {
+    background-image: url(/etc/designs/wow/clientlibs_crackin/images/coupon/2.png);
+    background-size: 45px 45px;
+    padding-left: 53px;
+    width: 150px;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+
+}
+
+.coupon ul.steps li.step-3 {
+    background-image: url(/etc/designs/wow/clientlibs_crackin/images/coupon/3.png);
+    background-size: 45px 45px;
+    padding-left: 53px;
+    width: 140px;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.coupon ul.steps li.step-4 {
+    background-image: url(/etc/designs/wow/clientlibs_crackin/images/coupon/4.png);
+    background-size: 45px 45px;
+    padding-left: 53px;
+    width: 175px;
+    margin-right: 0 !important;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.coupon .txtcol .note {
+    color: #e42d1f;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.coupon .title-sweeps img {
+    max-width: 751px;
+    max-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.coupon .signuplabel {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    color: #000000;
+    display: inline-block;
+}
+
+.coupon form label.emaillab {
+font-size: 21px;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 19px 0 10px;
+    letter-spacing: 0px;
+    font-family: 'Avenir LT W01 55 Roman',sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    color: #000000;
+    display: block;
+}
+
+.coupon form input[type="text"] {
+    max-width: 290px;
+    width: 290px;
+    height: 36px;
+    padding: 8px 10px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -moz-background-clip: padding;
+    -o-background-clip: padding-box;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+    background-color: #fff;
+    background-color: #cbcbcb;
+    background-color: rgba(203,203,203,0.3);
+    -moz-box-shadow: inset 1px 1px 5px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 1px 1px 5px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.75);
+}
+.coupon input:not([type=radio]), .coupon textarea, .coupon select {
+    font-family: 'Avenir LT W01 55 Roman', sans-serif;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-size: 12px;
+    margin: 0 0 25px 0;
+    width: 100%;
+}
+
+.coupon input:not([type=radio]){
+    box-sizing: content-box;
+    background: rgba(203,203,203,0.3) !important;
+}
+
+.coupon #couponformsubmit1:hover, #couponformsubmit1:active {
+    background-color: #8dc63f !important;
+    text-decoration: none;
+    background-image: url(/etc/designs/wow/clientlibs_crackin/images/coupon/btn-click.png);
+}
+
+.coupon #couponformsubmit1 {
+-moz-transition-property: color,background-color,font-size;
+    -o-transition-property: color,background-color,font-size;
+    -webkit-transition-property: color,background-color,font-size;
+    transition-property: color,background-color,font-size;
+    -moz-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    text-transform: uppercase;
+    width: 290px;
+    max-width: 85%;
+    background-color: #8dc63f;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    margin: 0 auto;
+    font-weight: 500;
+    background-image: url(/etc/designs/wow/clientlibs_crackin/images/coupon/btn.png);
+    width: 274px;
+    height: 38px;
+    border: 0 none;
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.coupon p.pseudo {
+    margin-bottom: 20px;
+}
+.coupon .couponBodyText {
+    font-family: FuturaW01LightRegular;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.coupon .couponBodyText img {
+    margin: 0 auto;
+}
+.coupon .couponBodyText p {
+    margin-bottom: 15px;
+}
+
+.coupon p.coupon-form-check {
+    margin-top:20px;
+}
+
+.coupon .legal {
+    font-family: FuturaW01LightRegular;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.coupon #RemotePage {
+    height:820px !important;
+}
+
+.coupon .technical {
+    font-family: 'Avenir LT W01 55 Roman',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 52px;
+    line-height: 30px;
+    margin-bottom: 27px;
+    color: #000000;
+}
+
+.coupon .technical a, .coupon .technical a:link, .coupon .technical a:visited, .coupon .technical a:active{
+	color: #8dc63f;
+}
+
+
+.coupon .iframe_holder {
+    margin-bottom: 0px !important;
+}
+
+/* iPad Portrait */
+@media screen and (max-device-width: 769px) and (orientation:portrait) {
+      html, body {
+          min-width: 1px;
+          max-width: 768px;
+
+      }
+      header, footer, .coupon-desktop {
+          display:none;
+      }
+      .coupon-mobile {
+          display:block;
+      }
+
+      #main .content {
+          min-width: 1px;
+      }
+
+      .container {
+          width: 100%;
+      }
+      #main {
+          min-width: 1px;
+          position: relative;
+      }
+      .coupon-mobile {
+          margin-top:25px;
+      }
+
+      .offer_mobile_holder .claim {
+             margin: 35px 0 35px;
+       }
+       body a:link, body a:visited {
+           color: #FFF;
+           text-decoration: none;
+       }
+}
+
+/* iPad Portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	html, body {
+    max-width: none;
+  }
+}
+
+/* iPad Landscape */
+@media screen and (max-device-width: 769px) and (orientation:landscape) {
+      html, body {
+          min-width: 1px;
+          max-width: 768px;
+
+      }
+      header, footer, .coupon-desktop {
+          display:none;
+      }
+      .coupon-mobile {
+          display:block;
+      }
+
+      #main .content {
+          min-width: 1px;
+      }
+
+      .container {
+          width: 100%;
+      }
+      #main {
+          min-width: 1px;
+          position: relative;
+      }
+      .coupon-mobile {
+          margin-top:25px;
+      }
+
+      .offer_mobile_holder .claim {
+                 margin: 35px 0 45px;
+
+       }
+       body a:link, body a:visited {
+           color: #FFF;
+           text-decoration: none;
+       }
+}
+
+.inner-coupon-mobile img{
+  margin:0 auto;
+}
+
+.inner-coupon-mobile .btn_home {
+  		display: block;
+    	text-transform: uppercase;
+    	width: 274px;
+    	max-width: 85%;
+    	height: 38px;
+    	background-color: #8dc63f;
+    	text-align: center;
+    	line-height: 38px;
+    	color: #fff;
+    	-moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    	box-sizing: border-box;
+    	text-indent: -119988px;
+    	overflow: hidden;
+    	text-align: left;
+    	text-transform: capitalize;
+    	background-image: url(/etc/designs/wow/clientlibs_crackin/images/coupon/btn-home-wp.png);
+    	background-repeat: no-repeat;
+    	background-position: center center;
+  		padding: 10px 26px;
+   		margin: 0 auto;
+}
+.inner-coupon-mobile  h1 {
+      display:none;
+}
+
+.inner-coupon-mobile {
+    height: 75vh;
+}
+
+@media screen and (max-device-width: 768px) {
+	.inner-coupon-mobile img{
+		width:65%;
+    margin:0 auto;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.inner-coupon-mobile img{
+  	width: 408px;
+  	margin-bottom: 50px;
+	}
+
+	.inner-coupon-mobile .info h2{
+		font-family: sans-serif;
+		font-size:24px;
+		font-weight:bold;
+	}
+}
+
+
+.thanks_facebook_circle
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/facebook_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 99px;
+	height:50px;
+	margin-bottom:5px;
+	margin-left:10px;
+	width:45px;
+}
+
+.thanks_facebook_circle:hover
+{
+	background-position:0 -51px;
+}
+
+.thanks_twitter_circle
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/twitter_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 99px;
+	height:50px;
+	margin-bottom:5px;
+	margin-left:10px;
+	width:45px;
+}
+
+.thanks_twitter_circle:hover
+{
+	background-position:0 -51px;
+}
+
+.thanks_pinterest_circle
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/pinterest_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 99px;
+	height:50px;
+	margin-left:10px;
+	width:45px;
+}
+
+.thanks_pinterest_circle:hover
+{
+	background-position:0 -51px;
+}
+
+.thanks_google_circle
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/google_circle_high_res.png) 0 0 no-repeat;
+	background-size:45px 99px;
+	height:50px;
+	margin-bottom:5px;
+	margin-left:10px;
+	width:45px;
+}
+
+.thanks_google_circle:hover
+{
+	background-position:0 -51px;
+}
+
+.center_align
+{
+	float:left;
+	width:100%;
+}
+
+#lightbox_000
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/overlay.png) repeat;
+}
+
+.lightbox_table
+{
+	display:none;
+	height:100%;
+	left:0;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:99999999999999;
+}
+
+.lightbox_content_00
+{
+	background:#fff url(/etc/designs/wow/clientlibs_crackin/images/nutrition_headline.jpg) 30px 20px no-repeat;
+	background-size:184px 24px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	width:475px;
+	z-index:1;
+}
+
+.lightbox_content_inner
+{
+	padding:25px;
+}
+
+.close_lightbox
+{
+	display:block;
+	height:16px;
+	line-height:30px;
+	position:absolute;
+	text-align:center;
+	width:16px;
+}
+
+.close_lightbox_001
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/nutrition_close.png) 0 -63px no-repeat;
+	background-size:31px 122px;
+	display:block;
+	height:61px;
+	line-height:99999999px;
+	overflow:hidden;
+	right:-30px;
+	top:0;
+	width:31px;
+}
+
+.close_lightbox_001:hover
+{
+	background-position:0 -1px;
+}
+
+.nutrition_label
+{
+	height:210px;
+	margin-left:25px;
+	margin-top:65px;
+	width:425px;
+}
+
+#locator
+{
+	position:relative;
+}
+
+.store_locator_header
+{
+	display:block;
+	height:31px;
+	margin:200px auto 30px;
+	width:633px;
+}
+
+.store_locator_header_02
+{
+	display:block;
+	height:31px;
+	margin:20px auto 30px;
+	width:633px;
+}
+
+.store_locator_top_shadow
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/map_shadow.png) 0 0 repeat-x;
+	height:38px;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:99999;
+}
+
+.store_locator_table_left
+{
+	position:relative;
+	width:400px;
+}
+
+.store_locator_table_right
+{
+	position:relative;
+}
+
+.store_locator_map
+{
+	height:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:1;
+}
+
+.store_locator_table
+{
+	margin-top:50px;
+	width:100%;
+}
+
+.store_locator_table tr td
+{
+	vertical-align:top;
+}
+
+.store_header
+{
+	color:#999;
+	float:left;
+	font-family:AvenirLT-Medium;
+	font-size:14px;
+}
+
+.store_filter_by
+{
+	float:right;
+}
+
+.store_list_top
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/map_list_divider.png) 0 100% repeat-x;
+	margin-top:38px;
+	padding-bottom:15px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.store_list_table
+{
+	width:100%;
+}
+
+.map_list_number
+{
+	float:left;
+	height:33px;
+	width:33px;
+}
+
+.store_locator_list_item
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/map_list_divider.png) 0 100% repeat-x;
+	padding:15px;
+}
+
+.store_name
+{
+	color:#fff;
+	font-family:AvenirLT-Heavy;
+	font-size:14px;
+	margin-bottom:5px;
+	width:100%;
+}
+
+.store_location
+{
+	color:#999;
+	font-family:AvenirLT-Roman;
+	font-size:14px;
+}
+
+.store_distance
+{
+	color:#999;
+	font-family:AvenirLT-Roman;
+	font-size:14px;
+}
+
+.store_list_left
+{
+	width:50px;
+}
+
+.store_list_center
+{
+	width:250px;
+}
+
+.store_list_center_02
+{
+	line-height:35px;
+	width:300px;
+}
+
+.store_list_center_03
+{
+	width:300px;
+}
+
+.store_list_right_02
+{
+	line-height:35px;
+}
+
+.store_locator_list_bottom
+{
+	margin-bottom:100px;
+	padding:15px;
+}
+
+.store_locator_list_footer
+{
+	padding:15px;
+}
+
+.store_results_number
+{
+	color:#999;
+	font-size:14px;
+	height:25px;
+	line-height:25px;
+}
+
+.store_left_button
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/store_left_button_high_res.png) 0 0 no-repeat;
+	background-size:25px 25px;
+	display:block;
+	float:right;
+	height:25px;
+	line-height:99999px;
+	margin-right:5px;
+	overflow:hidden;
+	width:25px;
+}
+
+.store_right_button
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/store_right_button_high_res.png) 0 0 no-repeat;
+	background-size:25px 25px;
+	display:block;
+	float:right;
+	height:25px;
+	line-height:99999px;
+	overflow:hidden;
+	width:25px;
+}
+
+.print_button
+{
+	height:21px;
+	position:absolute;
+	right:15px;
+	top:35px;
+	width:26px;
+}
+
+.store_total_distance
+{
+	color:#999;
+	float:right;
+	font-family:AvenirLT-Medium;
+	font-size:12px;
+}
+
+.white_heavy
+{
+	color:#fff;
+	font-family:AvenirLT-Heavy;
+}
+
+.store_locator_email
+{
+	width:100%;
+}
+
+.store_locator_text
+{
+	color:#999;
+	float:left;
+	font-family:AvenirLT-Medium;
+	font-size:12px;
+	height:25px;
+	line-height:25px;
+}
+
+.store_form_bg
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/footer_nav_form_bg_high_res.png) 0 0 no-repeat;
+	background-size:181px 24px;
+	float:right;
+	height:24px;
+	width:181px;
+}
+
+.send_button
+{
+	background:url(/etc/designs/wow/clientlibs_crackin/images/send_button_high_res.png) 0 100% no-repeat;
+	background-size:61px 57px;
+	display:block;
+	float:right;
+	height:29px;
+	line-height:999999px;
+	margin-left:15px;
+	margin-top:7px;
+	overflow:hidden;
+	width:61px;
+}
+
+.send_button:hover
+{
+	background-position:0 0;
+}
+
+.shareform
+{
+	margin:-10px 0 0;
+	padding:0;
+}
+
+.shareform input,.shareform textarea
+{
+	-moz-box-shadow:inset 0 0 16px #111;
+	-moz-transition:all .2s ease-out;
+	-ms-box-shadow:inset 0 0 16px #111;
+	-ms-transition:all .2s ease-out;
+	-o-box-shadow:inset 0 0 16px #111;
+	-o-transition:all .2s ease-out;
+	-webkit-box-shadow:inset 0 0 16px #111;
+	-webkit-transition:all .2s ease-out;
+	background:#222;
+	background-size:100% 100%;
+	border-bottom:1px solid #444;
+	border-left:1px solid #222;
+	border-right:1px solid #222;
+	border-top:1px solid #111;
+	box-shadow:inset 0 0 16px #111;
+	color:#999;
+	font-size:13px;
+	height:20px;
+	line-height:1;
+	margin:6px 6px 16px 0 !important;
+	outline:none;
+	padding:6px 6px 6px 0;
+	text-indent:6px;
+	transition:all .2s ease-out;
+	width:270px;
+}
+
+.shareform textarea
+{
+	height:40px;
+	width:270px;
+}
+
+.shareform input:focus,.shareform textarea:focus
+{
+	-moz-box-shadow:inset 0 0 20px rgba(0,0,0,.6);
+	-moz-transition:all .2s ease-out;
+	-ms-box-shadow:inset 0 0 20px rgba(0,0,0,.6);
+	-ms-transition:all .2s ease-out;
+	-o-box-shadow:inset 0 0 20px rgba(0,0,0,.6);
+	-o-transition:all .2s ease-out;
+	-webkit-box-shadow:inset 0 0 20px rgba(0,0,0,.6);
+	-webkit-transition:all .2s ease-out;
+	background:#0F0;
+	box-shadow:inset 0 0 20px rgba(0,0,0,.6);
+	color:#000;
+	text-shadow:none;
+	transition:all .2s ease-out;
+}
+
+.shareform #email2
+{
+	margin-top:12px!important;
+}
+
+.shareform #subject,.shareform #message
+{
+	margin-top:6px!important;
+}
+
+.send
+{
+	background:transparent;
+	border:none;
+	height:45px;
+	margin-left:190px;
+	margin-top:-12px;
+	width:90px;
+}
+
+.shareform .star
+{
+	color:#0F0;
+	font-size:14px;
+	margin-left:5px;
+}
+
+.shareform .sharelink,.shareform .sharecode
+{
+	color:#666;
+	font-size:14px;
+	margin-left:5px;
+	width:185px;
+}
+
+#share-head
+{
+	font-size:13px!important;
+}
+
+.fb_edge_comment_widget
+{
+	display:none!important;
+}
+
+@media screen and (min-width : 1024px ) {
+	.videosLink .center {
+	    width:1024px;
+	}
+	#footer_nav_center {
+	    width:1024px;
+	}
+
+}
+
+@media screen and min-width 1024px {
+	.center
+	{
+		width:1024px;
+	}
+
+	.video_items
+	{
+		width:1024px;
+	}
+
+	.video_item
+	{
+		margin-left:14px;
+		margin-right:14px;
+	}
+
+	.video_header
+	{
+		width:990px;
+	}
+
+	.youtube,.youtube_info,.youtube_info_02
+	{
+		width:849px;
+	}
+
+	.youtube
+	{
+		height:505px;
+	}
+
+	#nav_top_02
+	{
+		background-size:1024px auto;
+		height:700px;
+	}
+
+	.nav_top_video
+	{
+		height:800px!important;
+	}
+
+	#video_slider_center
+	{
+		width:960px;
+	}
+
+	.video_close
+	{
+		right:62px;
+		top:-20px;
+	}
+
+	#more_vidoes
+	{
+		width:100px;
+	}
+
+	.fade_loader,.fader_button_left,.fader_button_right
+	{
+		height:500px;
+	}
+
+	#store_form
+	{
+		width:260px;
+	}
+
+	#product_division
+	{
+		background-position:50% 700px;
+	}
+
+	#nav_top_03
+	{
+		height:1350px;
+	}
+
+	.breadcrumbs
+	{
+		top:120px;
+	}
+
+	#contest
+	{
+		height:215px;
+	}
+
+	.slider_02_outer
+	{
+		height:85px;
+		width:929px;
+	}
+
+	#slider_02_inner
+	{
+		height:85px;
+		width:2790px;
+	}
+
+	.video_slider_thumb
+	{
+		margin-right:5px;
+		width:150px;
+	}
+
+	.slider_button_left
+	{
+		height:85px;
+	}
+
+	.slider_button_right
+	{
+		height:85px;
+	}
+
+	.scroll_shadow
+	{
+		width:900px;
+	}
+
+	.product_hero_text_inner
+	{
+		width:325px;
+	}
+
+	#blog_outer
+	{
+		width:750px;
+	}
+
+	.product_nutrition
+	{
+		height:1025px;
+	}
+
+}
+
+@media screen and min-width 1024px {
+	#share-social-one
+	{
+		float:left;
+		margin-left:-45px;
+	}
+
+	#share-social-two
+	{
+		margin-left:13%;
+		position:absolute;
+	}
+
+	#share-social-three
+	{
+		position:absolute;
+		right:100px;
+	}
+
+	.sharelink,.sharecode
+	{
+		width:270px!important;
+	}
+
+	#share-content
+	{
+		bottom:-45%!important;
+		height:55%!important;
+		overflow:hidden;
+		position:relative;
+	}
+}
+
+.content {
+        clear:both;
+        padding-top:125px;
+        position: relative;
+}
+
+
+.blog_post_category a,.blog_post_category a:visited,.blog_text a,.blog_text a:visited{color:#8dc63f}
+.blog_text a:link, .blog_text a:active{color:#8dc63f}
+.blog_content img{
+	max-width: none !important;
+	display: block;
+  width: 100%;
+	margin-bottom: 15px;
+}
+
+.blog_content .mobileBackLink img{
+  width: auto;
+}
+
+.blog_post_category a, .blog_post_category a:visited {
+    color: #8dc63f;
+    font-size: 12px;
+}
+
+.wow-body .page .ui-panel-wrapper .page .content .blogEntry{
+	overflow: hidden;
+}
+
+.blogEntry {
+    top: -15px;
+    position: relative;
+}
+.blogEntryIndex {
+    top: -15px;
+    position: relative;
+}
+.blog_mobile_date{
+
+    display:none;
+}
+@media screen and (min-width : 0px) {
+	.related_post{max-width:496px;padding-left:0px;}
+	.wp_rp{width:100%;padding-left:15px}
+	.wp_rp li{width:150px;border:5px solid #fff;background:#fff;margin-left:0px;}
+	.comments{margin-left:10px;}
+	.blog_content img{max-width:520px}
+}
+@media screen and (min-width : 1024px){
+	.related_post{max-width:496px;padding-left:0px;}
+	.wp_rp{width:100%;padding-left:36px;float:left}
+	.wp_rp li{width:150px;border:5px solid #fff;background:#fff;margin-left:0px;}
+	.comments{margin-left:30px;}
+}
+.hero {
+	height: 495px;
+}
+
+.videos {
+       background: #000;
+}
+
+.couponLink {
+	height: 200px;
+	background-color: #FFF;
+}
+.products {
+
+	margin-top : -120px;
+}
+
+#press-page .page .ui-panel-wrapper .page .content{
+	background: white !important;
+}
+
+#press-page .page .ui-panel-wrapper .page .content #press_posts_form{
+	font-family: AvenirLT-Medium;
+  font-size: 13px;
+}
+
+#press-page .page .ui-panel-wrapper .page .content #press_posts_form select{
+  font-size: 11px;
+}
+
+#press-page .page .ui-panel-wrapper .page .content .news a,
+#press-page .page .ui-panel-wrapper .page .content .news a:active,
+#press-page .page .ui-panel-wrapper .page .content .news a:link {
+  color: #81BC1B;
+}
+
+#press-page .page .ui-panel-wrapper .page .content .new.section{
+  display: none;
+}
+
+.press a,.press a:hover,.press a:visited {
+	color:inherit
+}
+.taglist {
+    margin-top: -10px
+}
+
+.taglist .tag-strong{
+	font-weight: bold;
+}
+
+.taglist a {
+    font-weight: bold;
+    text-transform: lowercase;
+}
+.taglist a:hover {
+    color: #8dc63f!important;
+}
+.press_nav {
+    color: #999!important;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.press_nav:hover {
+    color: #fff!important;
+}
+.press_nav_on {
+    color: #8dc63f!important;
+}
+.facts_link img {
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+.press_nav_on:hover {
+    color: #8dc63f;
+    cursor: default
+}
+.overlay {
+    background: none;
+    width: 100%;
+    z-index: 10000001;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    max-height: 700px;
+}
+.dropdown {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    padding-left: 10px;
+    width: 150px;
+    height: 18px;
+    outline: 0px;
+    border: 0px;
+    background: #333;
+    color: #fff;
+    background-image: url(/etc/designs/wow/clientlibs_crackin/images/dropdown.jpg);
+    background-repeat: no-repeat;
+    background-position: 105px 0px;
+}
+.dropdown1 {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    padding-left: 10px;
+    width: 80px;
+    height: 18px;
+    outline: 0px;
+    border: 0px;
+    background: #333;
+    color: #fff;
+    background-image: url(/etc/designs/wow/clientlibs_crackin/images/dropdown.jpg);
+    background-repeat: no-repeat;
+    background-position: 35px 0px;
+}
+.post_link {
+    color: #81BC1B!important;
+}
+.post_link:hover {
+    color: #999!important
+}
+.press_content {
+    color: #666;
+    line-height: 24px;
+    text-align: justify
+}
+.press_content a {
+    color: #81BC1B!important
+}
+.press_content a:hover {
+    color: #999!important
+}
+.media_title {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    color: #81BC1B!important
+}
+.media_title:hover {
+    cursor: pointer;
+    color: #999!important
+}
+.page::-webkit-scrollbar {
+    width: 7px;
+    background-color: #f6f6f6;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+.page::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #999;
+    -webkit-box-shadow: 0 0 1px #eee;
+}
+
+.news {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#destini {
+	width: 100%;
+  height: 720px;
+}
+
+.whereToBuy .where-to-buy-header{
+	height: 114px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.whereToBuy .where-to-buy-header img{
+	width: 633px;
+	height: 31px;
+}
+
+.whereToBuyLink {
+	background-color: #000;
+	margin-top:40px;
+}
+
+.whereToBuyLink  #store_header {
+    margin-top:0px;
+
+}
+
+.whereToBuyLink   .black_band_tab {
+    float: left;
+    height: 90px;
+    margin-left: -20px;
+    width: 247px;
+    margin-top: -40px;
+}
+
+.logo_bag_02 {
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    z-index: 0;
+}
+
+.videosLink .owl-theme .owl-controls {
+    margin-top: 10px;
+    text-align: center;
+}
+    /* Styling Next and Prev buttons */
+.videosLink .owl-theme .owl-controls .owl-buttons div{
+    color: #FFF;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;/*IE7 life-saver */
+    margin: 5px;
+    padding: 3px 10px;
+    font-size: 12px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background: #869791;
+    filter: Alpha(Opacity=50);/*IE7 fix*/
+    opacity: 0.5;
+}
+    /* Clickable class fix problem with hover on touch devices */
+    /* Use it for non-touch hover action */
+.videosLink .owl-theme .owl-controls.clickable .owl-buttons div:hover{
+    filter: Alpha(Opacity=100);/*IE7 fix*/
+    opacity: 1;
+    text-decoration: none;
+}
+    /* Styling Pagination*/
+.videosLink .owl-theme .owl-controls .owl-page{
+    display: inline-block;
+    zoom: 1;
+    *display: inline;/*IE7 life-saver */
+}
+.videosLink .owl-theme .owl-controls .owl-page span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50);/*IE7 fix*/
+    opacity: 0.5;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #869791;
+}
+.videosLink .owl-theme .owl-controls .owl-page.active span,
+.videosLink .owl-theme .owl-controls.clickable .owl-page:hover span{
+    filter: Alpha(Opacity=100);/*IE7 fix*/
+    opacity: 1;
+}
+    /* If PaginationNumbers is true */
+.videosLink .owl-theme .owl-controls .owl-page span.owl-numbers{
+    height: auto;
+    width: auto;
+    color: #FFF;
+    padding: 2px 10px;
+    font-size: 12px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+    /* preloading images */
+.videosLink .owl-item.loading{
+    min-height: 150px;
+    background: url(AjaxLoader.gif) no-repeat center center
+}
+    /*
+    #owl-demo .owl-item > div img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom:4px;
+}
+    */
+    #owl-demo .owl-item > div{
+    /*   background : #42bdc2; */
+    text-align: center;
+    margin:3px;
+    color: white;
+    font-size:32px;
+    border:1px white;
+}
+.videosLink .wrapper-with-margin{
+    margin:0px 50px;
+}
+.videosLink .owl-theme .owl-controls .owl-buttons div {
+    position: absolute;
+}
+.videosLink .owl-theme .owl-controls .owl-buttons .owl-prev{
+    left: -45px;
+    top: 35px;
+    background: url('/etc/designs/wow/clientlibs_crackin/images/slider_button_left_high_res2015.png');
+    background-position:-40px 0px;
+    text-indent:-999px;
+    width:40px;
+    height:40px;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+}
+.videosLink .owl-theme .owl-controls .owl-buttons .owl-next{
+    right: -45px;
+    top: 35px;
+    background:url('/etc/designs/wow/clientlibs_crackin/images/slider_button_right_high_res2015.png');
+    background-position:-40px 0px;
+    text-indent:-999px;
+    width:40px;
+    height:40px;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+}
+.videosLink  #owl-demo {
+    max-width: 960px;
+    margin: -20px auto 0px;
+    position: absolute;
+    opacity: 1;
+    display: block;
+}
+
+.videosLink .video_thumb_play {
+    position:absolute;
+    margin-top:15px;
+    margin-left:10px;
+    width: 128px;
+}
+
+.videosLink .itemImage {
+    width: 128px;
+}
+
+.videosLink .center {
+    padding-top:90px;
+}
+
+.videosLink .background-wrapper {
+    height:240px;
+    background:#EEE url('/etc/designs/wow/clientlibs_crackin/images/grad_videos.jpg');
+}
+@media (max-width:667px) {
+	.videosLink .background-wrapper {
+	   background:#141414;
+	}
+}
+
+.videosLink .jqm-footer {
+    display:none;
+}
+
+
+.videosLink .mobileVideoLink {
+    display:none;
+    padding-top: 225px;
+}
+
+
+.ui-footer a, ui-footer a:visited{
+    color: #ddd;
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+@media (max-width:1024px) {
+    .videosLink  #owl-demo {
+        max-width:720px;
+        margin:0 auto;
+        margin-left:120px;
+    }
+}
+#leftpanel {
+	overflow: scroll;
+}
+
+#leftpanel .twitter_circle, #leftpanel .youtube_circle,
+#leftpanel .facebook_circle, #leftpanel .pinterest_circle,
+#leftpanel .google_circle, #leftpanel .instagram_circle {
+    background-size: 70px 160px;
+    height: 65px;
+    margin-left: 0px;
+    width: 65px;
+
+}
+
+#leftpanel .social_circle {
+    width: 210px;
+    padding-top:20px;
+}
+
+.blog_pagination_mobile {
+	display:none;
+}
+
+.media .press {
+	width: 90%;
+    max-width: 980px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+	padding-bottom:50px
+}
+.media .press .press_item {
+		float: left;
+		margin: 15px;
+		margin-right: 22px;
+		margin-left: 0px;
+		width: 215px;
+		height: 275px;
+	}
+
+
+.media .overlay_item {
+	text-align:center;
+	position:fixed;
+	top:20px;
+	margin-left:-450px;
+	left:50%;
+	width:900px;
+	background:#fff;
+	padding-bottom:30px;
+	padding-top:30px;
+
+
+}
+.presss_image_td img{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 407px;
+}
+
+.products #cart-background {
+    position:absolute;
+    top: 0;
+    height:100%;
+    width:100%;
+    background-color:#111;
+    opacity:0.7;
+    display:none;
+    z-index:60000000;
+}
+.products #cart-container {
+    position:absolute;
+    width:100%;
+    display:none;
+}
+.products #cart {
+    position:fixed;
+    width :800px;
+    margin:50px auto ;
+    min-height:300px;
+    background-color:#FFF;
+    opacity:1;
+    padding:20px;
+    z-index:60000001;
+		max-width: 96%;
+    font-family: AvenirLT-Roman;
+    font-size: 14px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+    line-height: 20px;
+}
+
+.cart-view {
+    position: relative;
+    float: right;
+    top: 107px;
+    right: 80px;
+    z-index: 10000;
+    font-family: AvenirLT-Heavy;
+    font-size: 12px;
+    cursor:pointer;
+}
+.products #cart h2 {
+    color: #000;
+    font-family: AvenirLT-Heavy;
+    font-size: 36px;
+    height: 30px;
+    text-shadow: 0 2px 2px #fff;
+    width:100%
+}
+.products #cart .total {
+	width:25%;
+	display:none;
+	position: absolute;
+	bottom: 25px;
+	right: 2.5%;
+	text-align: center;
+}
+.products #cart .items {
+	width:70%
+}
+.products #cart .purchaseLink {
+	margin-bottom: 20px;
+}
+
+.products #cart .purchaseLink:after {
+	background: linear-gradient(#aee240, #83b619);
+}
+
+
+
+.products #cart .purchaseLink img{
+	border:0 none;
+	width: 200px;
+}
+.products #cart .cartItem {
+	width:100%;
+	//clear:both;
+	padding-bottom:15px;
+}
+.products #cart .cartQuantity, .products #cart .cartPrice, .products #cart .cartTotalPrice {
+	float:right;
+	width:90px;
+	padding: 0 15px;
+	text-align: center;
+}
+
+.products #cart .subTotal {
+	font-size: 22px;
+	width:100%;
+	text-align:center;
+	padding-bottom:12px;
+}
+
+.products .cartPrice {
+	font-weight: bold;
+}
+
+.buyLink {
+    cursor: pointer;
+}
+
+.products #cart .cartTitle {
+	width: 340px;
+	float: left;
+	font-weight: bold;
+}
+
+.products #cart .cartTitle .itemRemove {
+	font-weight: normal;
+	cursor: pointer;
+}
+
+.products #cart .cartTitle .itemRemove:hover {
+	text-decoration: underline;
+}
+
+.products .select-container {
+   width: 220px;
+   height: 24px;
+   overflow: hidden;
+   background: url(/etc/designs/wow/clientlibs_crackin/images/media_next.jpg) no-repeat 205px center #fff;
+   background-size: 10px auto;
+
+   border: 1px solid #ccc;
+   margin-bottom:5px;
+   }
+
+.products .select-container select {
+    background: transparent;
+    width: 258px;
+    padding: 0px 4px 5px;
+    font-size: 14px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+    font-family: AvenirLT-Heavy;
+}
+.products #cart .cartItem input {
+    width: 25px;
+    text-align: center;
+}
+
+
+.products #cart .cartHeader {
+	height:30px;
+}
+.products #cart .cartHeader {
+	font-weight: normal !important;
+}
+
+.contact {
+	font-size:16px;
+}
+
+.contact select:not([size]):not([multiple]), .contact select[size="0"], select[size="1"] {
+    background-color: buttonface;
+}
+
+keygen, select, select[size="0"], select[size="1"] {
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+}
+user agent stylesheet
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+user agent stylesheet
+select {
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+user agent stylesheet
+keygen, select {
+    border-radius: 5px;
+}
+user agent stylesheet
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	html, body{
+		max-width: none;
+	}
+	#leftpanel { display: none; }
+	.inner-coupon-mobile {
+    height: 40vh;
+}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	#leftpanel { display: none; }
+		.inner-coupon-mobile {
+    height: 30vh;}
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1)  {
+	.products #cart .cartQuantity, .products #cart .cartPrice, .products #cart .cartTotalPrice {
+		width: 60px;
+		padding: 0 10px;
+	}
+}
+
+.press-latest-news-title, .press-back-button{
+	display: none;
+}
+
+
+@media only screen and (min-device-width : 768px){
+	#ca-transparency-act-page .p1, #privacy-policy-page  .p1 , #terms-of-use-page  .p1 {
+		font-size:1.17em;
+		font-weight:bold;
+	}
+
+	#terms-of-use-page b{
+		color:#333333;
+	}
+
+	#terms-of-use-page p, #privacy-policy-page p, #ca-transparency-act-page p{
+		line-height: 20px;
+	    color: #333333;
+	}
+
+	#privacy-policy-page  h4 {
+	    font-size: 12px;
+    	line-height: 20px;
+    	color: #333333;
+    	margin-bottom: 20px;
+    	-webkit-margin-before: 1.33em;
+ 		-webkit-margin-after: 1.33em;
+  	  	font-weight: bold;
+	}
+}
+
+@media only screen and (max-device-width : 736px) {
+	#terms-of-use-page .ui-panel-wrapper,
+	#privacy-policy-page .ui-panel-wrapper,
+	#ca-transparency-act-page .ui-panel-wrapper {
+		background: white;
+	}
+}
+
+#crackin-nav{
+	position: absolute;
+	font-size: 0;
+	top: 0; left: 175px;
+	z-index: 9999999;
+}
+
+#crackin-nav a {
+	position: relative;
+	display: inline-block;
+	height: calc(176px/2);	
+	background: none;
+}
+
+#crackin-nav a .default, #crackin-nav a .active {
+	background-size: cover !important;
+	width: 100%; height: 100%;
+	transition: opacity .35s;
+	cursor: pointer;
+}
+
+#crackin-nav a:hover .default {
+	opacity: 0;
+}
+
+#crackin-nav a:hover .active {
+	opacity: 1;
+}
+
+#crackin-nav .active {
+	position: absolute;
+	top: 0; left: 0;
+	opacity: 0;
+	z-index: 1;
+}
+
+#crackin-nav .videos{ width: calc(223px / 2);}
+#crackin-nav  .pistachios{ width: calc(268px / 2);}
+#crackin-nav  .where{	width: calc(334px / 2);}
+#crackin-nav  .blog{	width: calc(219px / 2);}
+#crackin-nav  .health{	width: calc(238px / 2);}
+
+/* Default */
+
+.pp-green #crackin-nav .pistachios .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/pistachios-green-default.png);}
+.pp-green #crackin-nav .where .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/where-green-default.png);}
+.pp-green #crackin-nav .blog .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/blog-green-default.png);}
+.pp-green #crackin-nav .videos .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/videos-green-default.png);}
+.pp-green #crackin-nav .health .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/health-green-default.png);}
+
+.pp-white #crackin-nav .pistachios .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/pistachios-white-default.png);}
+.pp-white #crackin-nav .where .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/where-white-default.png);}
+.pp-white #crackin-nav .blog .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/blog-white-default.png);}
+.pp-white #crackin-nav .videos .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/videos-white-default.png);}
+.pp-white #crackin-nav .health .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/health-white-default.png);}
+
+.pp-black #crackin-nav .pistachios .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/pistachios-black-default.png);}
+.pp-black #crackin-nav .where .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/where-black-default.png);}
+.pp-black #crackin-nav .blog .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/blog-black-default.png);}
+.pp-black #crackin-nav .videos .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/videos-black-default.png);}
+.pp-black #crackin-nav .health .default{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/health-black-default.png);}
+
+/* Active */
+
+.pp-green #crackin-nav .pistachios .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/pistachios-green-active.png);}
+.pp-green #crackin-nav .where .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/where-green-active.png);}
+.pp-green #crackin-nav .blog .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/blog-green-active.png);}
+.pp-green #crackin-nav .videos .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/videos-green-active.png);}
+.pp-green #crackin-nav .health .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/health-green-active.png);}
+
+.pp-white #crackin-nav .pistachios .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/pistachios-black-active.png);}
+.pp-white #crackin-nav .where .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/where-black-active.png);}
+.pp-white #crackin-nav .blog .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/blog-black-active.png);}
+.pp-white #crackin-nav .videos .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/videos-black-active.png);}
+.pp-white #crackin-nav .health .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/health-black-active.png);}
+
+.pp-black #crackin-nav .pistachios .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/pistachios-black-active.png);}
+.pp-black #crackin-nav .where .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/where-black-active.png);}
+.pp-black #crackin-nav .blog .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/blog-black-active.png);}
+.pp-black #crackin-nav .videos .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/videos-black-active.png);}
+.pp-black #crackin-nav .health .active{ background: url(/etc/designs/wow/clientlibs_crackin/images/navigation/health-black-active.png);}
+
+#pistachio-videos-page #crackin-nav .videos .active{ opacity: 1 !important;}
+#pistachio-videos-page #crackin-nav .videos .default{ opacity: 0 !important;}
+#pistachio-products-page #crackin-nav .pistachios .active{ opacity: 1 !important;}
+#pistachio-products-page #crackin-nav .pistachios .default{ opacity: 0 !important;}
+#stores-page #crackin-nav .where .active{ opacity: 1 !important;}
+#stores-page #crackin-nav .where .default{ opacity: 0 !important;}
+#pistachio-blog-page #crackin-nav .blog .active{ opacity: 1 !important;}
+#pistachio-blog-page #crackin-nav .blog .default{ opacity: 0 !important;}
+#health-page #crackin-nav .health .active{ opacity: 1 !important;}
+#health-page #crackin-nav .health .default{ opacity: 0 !important;}
+
+
+.ui-panel-wrapper .page .header a{
+	position: relative;
+	width: 150px;
+	height: 85px;
+	display: inline-block;
+	z-index: 3;
+}
+
+
+/* Health Page */
+
+.health-page{
+	background: #080808;
+}
+
+.health-intro,
+.nuts-list,
+.health-footer{
+	width: 953px;
+}
+
+.health-intro{
+	font-size: 50px;
+	line-height: 40px;
+	text-align: center;
+	color: #96d342;
+	margin: 0 auto;	
+	font-family: AvenirLT-Roman;
+}
+
+.health-intro__title{
+	/*background: -webkit-linear-gradient(#baf45d, #85bb2f);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+
+.health-intro h2{	
+	color: #96d342;
+	font-size: 70px;
+	text-transform: uppercase;
+	margin: 10px 0 3px;
+}
+
+.health-intro h2 img{	
+	position: relative;
+	top: -7px;
+}
+
+.health-intro h2 span{	
+	display: none;
+}
+
+.health-intro__body{
+	font-size: 24px;	
+	font-family: AvenirLT-Roman;
+	color: white;
+	line-height: 32px;
+	margin-top: 46px;
+}
+
+.nuts-list{
+	color: white;
+	margin: 0 auto;
+	padding-left: 0;
+}
+
+.nuts-list-item{
+	margin-bottom: 13px;
+	font-size: 0;
+}
+
+.nuts-list-item__image,
+.nuts-list-item__info{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nuts-list-item__info{
+	width: 653px;
+}
+
+.nuts-list-item__title{
+	font-size: 36px;
+	color: #85bb2f;
+	text-transform: uppercase;
+	font-family: AvenirLT-Roman;
+	margin: 0 0 20px;
+	letter-spacing: -0.025em;
+}
+
+.nuts-list-item__body{
+	font-size: 16px;
+	font-family: AvenirLT-Roman;
+	letter-spacing: -0.010em;
+}
+
+.health-footer{	
+	padding: 80px 0 100px;
+	font-size: 10px;
+	line-height: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	margin: 0 auto;
+}
+
+.health-footer__icon{
+	margin: 0 20px 0;
+}
+
+
+.health-footer p{
+	color: #727373;
+	margin: 0 0 0 20px;
+	align-self: flex-end;
+}
+
+@media only screen and (max-device-width : 768px){
+	.health-intro,
+	.nuts-list,
+	.health-footer{
+		width: 100%;
+		padding: 0 10px;
+    box-sizing: border-box;
+	}
+
+	.health-intro{
+		font-size: 20px;
+		line-height: 20px;
+		margin-top: 15px;
+	}
+
+	.health-intro h2{
+		font-size: 26px;
+		margin: 3px 0;
+	}
+
+	.health-intro h2 img{	
+		top: -2px;
+		height: 19px;
+	}	
+
+	.health-intro__body{
+		font-size: 14px;
+		line-height: 16px;
+		margin-top: 16px;
+	}
+
+	.nuts-list-item{		
+		text-align: center;
+	}
+
+	.nuts-list-item__info{
+		width: 100%;
+	}
+
+	.nuts-list-item__title{
+		font-size: 26px;		
+		margin-bottom: 10px;
+	}
+
+	.nuts-list-item__body{
+		font-size: 12px;
+	}
+
+	.health-footer{
+		padding: 60px 10px 40px;
+	}
+
+	.health-footer__icon{
+		height: 35px;
+	}
+
+	.health-intro__body,
+	.nuts-list-item__body,
+	.health-footer{
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.health-footer__icon{
+		margin: 0 10px 0;
+	}
+}
+
+@media only screen and (max-device-width : 767px){
+	.health-footer{
+		padding: 40px 10px 0;
+	}
+}
