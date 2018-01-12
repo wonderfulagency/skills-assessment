@@ -1,13 +1,12 @@
-## Skills Assessment
+## A Wonderful skills assessment
 
 From this point, you will have 2 hours to code and **package** your solution to the following assessment:
 
 
-This repository contains one simple HTML page. 
-Your goal is to migrate this page to AEM and make the content authorable.
+This repository contains one simple HTML page which requires assets. Your goal is to migrate this page to AEM and make the content authorable.
 
 Please do the assessment according to industry best practices as you would in real conditions. 
-You will be asked to explain any places where your solution does not match the spec
+You will be asked to explain any places where your solution does not match our expecations.
 
 Bonus points: Don't use classic UI. Incorporate Sightly.
 
