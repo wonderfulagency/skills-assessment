@@ -1,11 +1,18 @@
 ## A Wonderful skills assessment
 
-From this point, you will have 2 hours to code and **package** your solution to the following assessment:
+From this point on, you will have 2 hours to code, package and deliver your solution:
 
 
-First, download this repository. The folder `skills-assessment` contains one simple HTML page. Your goal is to migrate it to AEM and make the content authorable. Please do the assessment according to industry best practices as you would in real conditions. You will be asked to explain any places where your solution does not match our expectations.
+First, download this repository. The folder `skills-assessment` contains one simple HTML page. For this exercise you will convert this static webpage page into an authorable AEM 6.1 page, preferably into your local environment. You will be expected to demonstrate knowledge of best practices not only for AEM but for HTML and CSS. Upon completing the migration of the page into AEM you will move on to the second part of the interview where you will talk with our Technical Director about your approach and the final result.
 
-**Bonus points**: Work on 6.3. Don't use Sightly slightly. Have fun with Global Properties. Avoid classic UI.
+**Bonus points**: 
+Make the site authorable on 6.3
+Use Sightly 
+Show off your use of Global Properties 
+Avoid classic UI
+Add some fancy JavaScript
+Finish under the time limit
+Consider Mobile
 
 
 ![Screen](https://github.com/wonderfulagency/skills-assessment/blob/master/preview.jpg)
